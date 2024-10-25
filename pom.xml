@@ -12,7 +12,11 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+		<!--
         <keycloak.version>18.0.0</keycloak.version>
+			22.0.11-1.10
+		-->
+        <keycloak.version>22.0.5</keycloak.version>
         <infinispan.version>12.1.7.Final</infinispan.version>
     </properties>
 
@@ -22,6 +26,22 @@
     </organization>
 
     <dependencies>
+	
+		<dependency>
+			<groupId>jakarta.ws.rs</groupId>
+			<artifactId>jakarta.ws.rs-api</artifactId>
+			<version>3.1.0</version> <!-- Použijte poslední verzi, pokud je dostupná -->
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>3.0.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+
         <!-- Keycloak -->
         <dependency>
             <groupId>org.keycloak</groupId>
