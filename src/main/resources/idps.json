@@ -728,5 +728,2160 @@
         "alias": "c2202fe000b1cdb32e0730d43ac0040508a52920e16091032171726145e72aff",
         "logo": "https://ndk.cz/img/idndk_35x160.png",
         "en-name": "Identities NDK"
-    }
+    },
+    
+    {
+    "en-name": "AVU",
+    "alias": "aHR0cHM6Ly9lcmlzLmF2dS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.avu.cz/sites/default/files/editor/avu_logo_1_stranka_6.jpg"
+  },
+  {
+    "en-name": "Academy of Arts, Architecture and Design in Prague",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnZzdXAuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.umprum.cz/logos/um2-200-cz.png"
+  },
+  {
+    "en-name": "Academy of Performing Arts in Prague",
+    "alias": "aHR0cHM6Ly9pZHAuYW11LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.amu.cz/idp/images/amu_logo_40px.png"
+  },
+  {
+    "en-name": "Academy of Sciences Library",
+    "alias": "aHR0cHM6Ly9pZHAubGliLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.lib.cas.cz/logo_knav.jpg"
+  },
+  {
+    "en-name": "Arts and Theatre Institute",
+    "alias": "aHR0cHM6Ly9sZGguaWR1LmN6L2F1dGgvc2FtbDItaWRw",
+    "logo": "https://ldh.idu.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Biology Centre AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuYmMuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-bc-44.png"
+  },
+  {
+    "en-name": "Brno University of Technology",
+    "alias": "aHR0cHM6Ly93d3cudnV0YnIuY3ovU1NPL3NhbWwyL2lkcA",
+    "logo": "https://www.vutbr.cz/logo_idp.png"
+  },
+  {
+    "en-name": "CESNET",
+    "alias": "aHR0cHM6Ly93aG9hbWkuY2VzbmV0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://whoami.cesnet.cz/idp/images/cesnet-logo-40.png"
+  },
+  {
+    "en-name": "Charles University",
+    "alias": "aHR0cHM6Ly9jYXMuY3VuaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://ldap.cuni.cz/images/UK_logo_40.png"
+  },
+  {
+    "en-name": "Chomutov Library",
+    "alias": "aHR0cHM6Ly9jaG9tdXRvdnNrYWtuaWhvdm5hLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkchom.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "College of Polytechnics Jihlava",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c3BqLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://eduid.vspj.cz/idp/images/logo.png"
+  },
+  {
+    "en-name": "Czech Language Institute of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAudWpjLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ujc-44.png"
+  },
+  {
+    "en-name": "Czech National Bank",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLmNuYi5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.cnb.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Czech Technical University in Prague",
+    "alias": "aHR0cHM6Ly9pZHAyLmNpdi5jdnV0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp2.civ.cvut.cz/cvutid/logo_cvut_40pix.png"
+  },
+  {
+    "en-name": "Czech University of Life Sciences Prague",
+    "alias": "aHR0cHM6Ly9lZHVpZC5jenUuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://eduid.czu.cz/CZU_EN_special_40x60.png"
+  },
+  {
+    "en-name": "District Library of Petr Bezruè in Opava",
+    "alias": "aHR0cHM6Ly9rcGJvLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://okpb.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "East Bohemia Museum in Pardubice",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLnZjbS5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.vcm.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Eduard Petiska Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5icmFuZHlzbmwuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://knep.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Global Change Research Institute CAS",
+    "alias": "aHR0cHM6Ly9pZHAuY3plY2hnbG9iZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.czechglobe.cz/media/cg-white-cs.png"
+  },
+  {
+    "en-name": "Huss' Library Ricany",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5yaWNhbnkuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkricany.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Identities NDK",
+    "alias": "aHR0cHM6Ly9pZC5uZGsuY3ovYXV0aC9yZWFsbXMvVXNlcg",
+    "logo": "https://ndk.cz/img/idndk_35x160.png"
+  },
+  {
+    "en-name": "Institute of Agricultural Economics and Information",
+    "alias": "aHR0cHM6Ly9hbGVwaC51emVpLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://aleph.uzei.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "Institute of Animal Physiology and Genetics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWFwZy5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-iapg-44.png"
+  },
+  {
+    "en-name": "Institute of Archaeology of the CAS, Prague",
+    "alias": "aHR0cHM6Ly9pZHAuYXJ1cC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-arup-44.png"
+  },
+  {
+    "en-name": "Institute of Archeology of the Czech Academy of Sciences, Brno",
+    "alias": "aHR0cHM6Ly9pZHAuYXJ1Yi5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-arub-44.png"
+  },
+  {
+    "en-name": "Institute of Art History of the Academy of Sciences of the Czech Republic",
+    "alias": "aHR0cHM6Ly9pZHAudWR1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-udu-44.png"
+  },
+  {
+    "en-name": "Institute of Biophysics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWJwLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ibp-44.png"
+  },
+  {
+    "en-name": "Institute of Botany of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWJvdC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-bu-44.png"
+  },
+  {
+    "en-name": "Institute of Chemical Process Fundamentals of the AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWNwZi5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-icpf-44.png"
+  },
+  {
+    "en-name": "Institute of Computer Science AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuY3MuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-ui-44.png"
+  },
+  {
+    "en-name": "Institute of Contemporary History",
+    "alias": "aHR0cHM6Ly9pZHAudXNkLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-usd-44.png"
+  },
+  {
+    "en-name": "Institute of Experimental Botany AS CR",
+    "alias": "aHR0cHM6Ly9pZHAudWViLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-ueb-44.png"
+  },
+  {
+    "en-name": "Institute of Geology AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuZ2xpLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-gli-44.png"
+  },
+  {
+    "en-name": "Institute of Geonics of the CAS",
+    "alias": "aHR0cHM6Ly9pZHAudWduLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ugn-44.png"
+  },
+  {
+    "en-name": "Institute of History of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAuaGl1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-hiu-44.png"
+  },
+  {
+    "en-name": "Institute of Information Theory and Automation AS CR",
+    "alias": "aHR0cHM6Ly9pZHAudXRpYS5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://jiftach.cas.cz/loga/logo-utia-44.png"
+  },
+  {
+    "en-name": "Institute of Inorganic chemistry of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWljLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-iic-44.png"
+  },
+  {
+    "en-name": "Institute of Mathematics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAubWF0aC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-math-44.png"
+  },
+  {
+    "en-name": "Institute of Philosophy AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuZmx1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logoflu-44.png"
+  },
+  {
+    "en-name": "Institute of Plasma Physics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaXBwLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ipp-44.png"
+  },
+  {
+    "en-name": "Institute of Rock Structure and Mechanics of The Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9lZHVpZC5pcnNtLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.irsm.cas.cz/images/logo_usmh.png"
+  },
+  {
+    "en-name": "Institute of Scientific Instruments of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAuaXNpYnJuby5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-upt-44.png"
+  },
+  {
+    "en-name": "Institute of Slavonic Studies of the CAS",
+    "alias": "aHR0cHM6Ly9pZHAuc2x1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-slu-44.png"
+  },
+  {
+    "en-name": "Institute of Sociology AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuc29jLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-soc-44.png"
+  },
+  {
+    "en-name": "Institute of State and Law of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWxhdy5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-usp-44.png"
+  },
+  {
+    "en-name": "Institute of Technology and Business in Èeské Budìjovice",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c3RlY2IuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://journals.vstecb.cz/wp-content/themes/journals/images/logo.jpg"
+  },
+  {
+    "en-name": "Institute of Theoretical and Applied Mechanics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaXRhbS5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-itam-44.png"
+  },
+  {
+    "en-name": "Jan Drda´s Library",
+    "alias": "aHR0cHM6Ly9ramQucGIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kjdpb.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Jan Evangelista Purkyne University in Usti nad Labem",
+    "alias": "aHR0cHM6Ly9pZHAudWplcC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://james.ujep.cz/logo_ujep40.png"
+  },
+  {
+    "en-name": "Janacek Academy of Music and Performing Arts in Brno",
+    "alias": "aHR0cHM6Ly9lZHVpZC5qYW11LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://www.jamu.cz/janacek.png"
+  },
+  {
+    "en-name": "Jihlava Town Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1qaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkjihlava.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Jiøí Mahen Library in Brno",
+    "alias": "aHR0cHM6Ly9ram0uY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kjm.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Karel Dvoracek Library",
+    "alias": "aHR0cHM6Ly9ra2R2eXNrb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kkdvy.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Library in Tøinec",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRyaW5lYy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mktri.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Masaryk University",
+    "alias": "aHR0cHM6Ly9pZHAyLmljcy5tdW5pLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://id.muni.cz/muni-80x80.png"
+  },
+  {
+    "en-name": "Mendel University in Brno - IdP",
+    "alias": "aHR0cHM6Ly9pZHAubWVuZGVsdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.mendelu.cz/idp/images/logo40en.png"
+  },
+  {
+    "en-name": "Moravian Library",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLm16ay5jei9zaW1wbGVzYW1sL21ldGFkYXRhLnhtbA",
+    "logo": "https://www.eduid.cz/idp-loga/mzk.png"
+  },
+  {
+    "en-name": "Moravian-Silesian Research Library in Ostrava",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLnN2a29zLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://katalog.svkos.cz/logo/logo_40.png"
+  },
+  {
+    "en-name": "Municipal Library Choceò",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWNob2Nlbi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://chocen.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Frenštát pod Radhoštìm",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWZyZW5zdGF0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://frenstat.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Holešov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5ob2xlc292LmluZm8vaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkhol.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Jaromìr",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWphcm9tZXIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkjar.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Jindøichùv Hradec",
+    "alias": "aHR0cHM6Ly9rbmloamguY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkjh.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Klatovy",
+    "alias": "aHR0cHM6Ly9rbmloLWt0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkklat.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Klimkovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5tZXN0by1rbGlta292aWNlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkklimkovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Kolín",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWtvbGluLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkkolin.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Kutná Hora",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1raC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkkh.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Marianske Lazne",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYW1sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkml.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Milovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5tZXN0by1taWxvdmljZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkmilovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Neratovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYW5lcmF0b3ZpY2UuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://neratovice.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Nymburk",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1uYmsuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mknbk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Ostrov",
+    "alias": "aHR0cHM6Ly9ta29zdHJvdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkostrov.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pelhrimov",
+    "alias": "aHR0cHM6Ly9rbmloLXBlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkpel.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pisek",
+    "alias": "aHR0cHM6Ly9rbmloLXBpLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkpisek.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pøerov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXByZXJvdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkpr.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Slavoj in Dvur Kralove nad Labem",
+    "alias": "aHR0cHM6Ly9zbGF2b2ouY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://dkralove.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Tábor",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRhYm9yLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkta.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Vratimov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS12cmF0aW1vdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://vratimov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library and Infocentre in Dolni Bousov",
+    "alias": "aHR0cHM6Ly9kb2xuaS1ib3Vzb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://dbousov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library and Information centre of Hradec nad Moravicí",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhyYWRlYy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkhnm.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Beroun",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWJlcm91bi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://beroun.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Boskovice",
+    "alias": "aHR0cHM6Ly9rdWx0dXJhYm9za292aWNlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkboskovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Cesky Krumlov",
+    "alias": "aHR0cHM6Ly9rbmloLWNrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkck.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Cheb, contributory organization",
+    "alias": "aHR0cHM6Ly9rcHdpbi5rbmloLWNoZWIuY3ovYXV0aC9zYW1sMi1pZHA",
+    "logo": "https://kpwin.knih-cheb.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Municipal Library in Havirov",
+    "alias": "aHR0cHM6Ly9rbmloLWhhdmlyb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://havirov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Hodonin",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhvZC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkhod.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Kladno",
+    "alias": "aHR0cHM6Ly9ta2tsLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkkl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Moravska Trebova",
+    "alias": "aHR0cHM6Ly9ta210LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkmt.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Roznov pod Radhostem",
+    "alias": "aHR0cHM6Ly9rbmlyLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://knir.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Svitavy",
+    "alias": "aHR0cHM6Ly9ib29rc3kuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mksvit.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Tøebíè",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRyLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mktrebic.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkhk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library of Prague",
+    "alias": "aHR0cHM6Ly9ncnlmLm1scC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://web2.mlp.cz/logo/200.png"
+  },
+  {
+    "en-name": "Municipal Library Ústí nad Orlicí",
+    "alias": "aHR0cHM6Ly9pZHAua25paG92bmEtdW8uY3ovc2FtbDIvaWRwL21ldGFkYXRhLnBocA",
+    "logo": "https://uo.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Èeská Lípa",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1jbC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkcl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Èeská Tøebová",
+    "alias": "aHR0cHM6Ly9pZHAubW9kZXJuaWtuaWhvdm5hLmN6L3NhbWwyL2lkcC9tZXRhZGF0YS5waHA",
+    "logo": "https://moderniknihovna.cz/images/logo/logo_mkct_small.png"
+  },
+  {
+    "en-name": "Municipal library Vysoke Myto",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS12bS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://vmyto.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library in Breclav",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWJyZWNsYXYuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://breclav.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library in Znojmo",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXpuLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkzn.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library with regional services in Trutnov",
+    "alias": "aHR0cHM6Ly9ta3RydXRub3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mktrut.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "National Information and Consulting Centre for Culture",
+    "alias": "aHR0cHM6Ly9uaXBvcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://nipos.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "National Library of Technology",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnRlY2hsaWIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.techlib.cz/public/images/logo-eduid.png"
+  },
+  {
+    "en-name": "National Medical Library, Prague - Medvik",
+    "alias": "aHR0cHM6Ly9zaGliLm1lZHZpay5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.medvik.cz/images/medvik-logo.png"
+  },
+  {
+    "en-name": "National Theatre Library Archive",
+    "alias": "aHR0cHM6Ly9hcmNoaXZuZGtuaWhvdm5hLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://archivnd.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "National museum",
+    "alias": "aHR0cHM6Ly9pZC5ubS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://id.nm.cz/nm_logo.png"
+  },
+  {
+    "en-name": "National technical museum",
+    "alias": "aHR0cHM6Ly9pZHAubnRtLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.ntm.cz/idp/images/idp.ntm.cz.jpg"
+  },
+  {
+    "en-name": "Nuclear Physics Institute of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAudWpmLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ujf-44.png"
+  },
+  {
+    "en-name": "Palacky University Olomouc",
+    "alias": "aHR0cHM6Ly9pZHAudXBvbC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.upol.cz/idp/images/UP_logo_horizont_cz_200.png"
+  },
+  {
+    "en-name": "Pilsen City Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5wbHplbi5ldS9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkplzen.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Prague University of Economics and Business",
+    "alias": "aHR0cHM6Ly9pZC52c2UuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://id.vse.cz/idp/images/vse-logo-cz_40px.png"
+  },
+  {
+    "en-name": "Regional Library Karlovy Vary",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWt2LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kkkv.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library Vysoèina",
+    "alias": "aHR0cHM6Ly9ra3Z5c29jaW55LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kkvy.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library Zlín",
+    "alias": "aHR0cHM6Ly9rZmJ6LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kfbz.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library in Pardubice",
+    "alias": "aHR0cHM6Ly9hbGVwaDIwLmtuaWhvdm5hLXBhcmR1YmljZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://aleph.knihovna-pardubice.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "Regional Research Library in Liberec",
+    "alias": "aHR0cHM6Ly9rdmtsaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://kvkl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Research Library in Olomouc",
+    "alias": "aHR0cHM6Ly9zaGliby52a29sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://shibo.vkol.cz/logo_40.png"
+  },
+  {
+    "en-name": "Silesian University in Opava",
+    "alias": "aHR0cHM6Ly9pZHAtY3JvLnNsdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://uit.opf.slu.cz/_media/slu-znacka-hlavni-200.png"
+  },
+  {
+    "en-name": "Technical University of Liberec",
+    "alias": "aHR0cHM6Ly9zaGliYm8udHVsLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://liane.tul.cz/img/znak-tul.png"
+  },
+  {
+    "en-name": "The College of European and Regional Studies",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c2Vycy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://eduid.vsers.cz/idp/images/vsers.png"
+  },
+  {
+    "en-name": "The Institute of Ethnology of the Czech Academy of Sciences, v. v. i.",
+    "alias": "aHR0cHM6Ly9pZHAuZXUuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-eu-44.png"
+  },
+  {
+    "en-name": "The Institute of Psychology of Academy of Science of Czech Republic",
+    "alias": "aHR0cHM6Ly9pZHAucHN1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-psu-44.png"
+  },
+  {
+    "en-name": "The Library of the City Olomouc",
+    "alias": "aHR0cHM6Ly9rbW9sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kmol.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "The National Heritage Institute",
+    "alias": "aHR0cHM6Ly9pZHAubnB1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.npu.cz/idp/images/NPU_logo.jpg"
+  },
+  {
+    "en-name": "The National Library of the Czech Republic",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLm5rcC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.en.nkp.cz/++resource++plonetheme.nkp.images/nkp_logo_en.png"
+  },
+  {
+    "en-name": "The National Pedagogical Museum and Library of J. A. Comenius",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLm5wbWsuY3ovYXV0aC9zYW1sMi1pZHA",
+    "logo": "https://katalog.npmk.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "The PRIGO University",
+    "alias": "aHR0cHM6Ly9lZHVpZC5wcmlnby5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://eduid.prigo.cz/idp/images/logo.png"
+  },
+  {
+    "en-name": "The Public Library Valašské Meziøíèí",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLm1la3ZhbG1lei5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.mekvalmez.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "The Research Library in Ceske Budejovice",
+    "alias": "aHR0cHM6Ly9jYnZrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://cbvk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "The Research Library in Hradec Králové",
+    "alias": "aHR0cHM6Ly9hbGVwaC5zdmtoay5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://aleph.svkhk.cz/logo/logo_40.png"
+  },
+  {
+    "en-name": "Tomas Bata University in Zlín",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnV0Yi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://shibboleth.utb.cz/assets/img/logo_cs_160x17.png"
+  },
+  {
+    "en-name": "University of Chemistry and Technology, Prague",
+    "alias": "aHR0cHM6Ly93c3NvLnZzY2h0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://wsso.vscht.cz/logo_vscht_40px.png"
+  },
+  {
+    "en-name": "University of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9pZHAudWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.uhk.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "University of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9pZHAudWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.uhk.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "University of Ostrava",
+    "alias": "aHR0cHM6Ly9pZHB0b28ub3N1LmN6L3NpbXBsZXNhbWwvc2FtbDIvaWRwL21ldGFkYXRhLnBocA",
+    "logo": "https://spock.osu.cz/idp/images/logo40.png"
+  },
+  {
+    "en-name": "University of Pardubice",
+    "alias": "aHR0cHM6Ly9pZHAudXBjZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.upce.cz/images/logo-40.png"
+  },
+  {
+    "en-name": "University of South Bohemia in Ceske Budejovice",
+    "alias": "aHR0cHM6Ly9oZWxpdW0uamN1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://helium.jcu.cz/logo-ju-40.png"
+  },
+  {
+    "en-name": "University of Veterinary Sciences Brno",
+    "alias": "aHR0cHM6Ly9pZHAudmZ1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://www.vetuni.cz/imgs/vetuni_logo_40x40.jpg"
+  },
+  {
+    "en-name": "University of West Bohemia",
+    "alias": "aHR0cHM6Ly9zaGliLnpjdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://shib.zcu.cz/idp/images/zcu_logo_40px.png"
+  },
+  {
+    "en-name": "University of defence",
+    "alias": "aHR0cHM6Ly9pZHAudW5vYi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.unob.cz/idp/images/znak_uo_wayf.png"
+  },
+  {
+    "en-name": "VSB - TU Ostrava",
+    "alias": "aHR0cHM6Ly9pZHAudnNiLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.vsb.cz/idp/images/vsb-logo-40.svg"
+  },
+  {
+    "en-name": "Vaclav Ctvrtek Library",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLmtuaWhvdm5hLmppY2luLmN6L2F1dGgvc2FtbDItaWRw",
+    "logo": "https://katalog.knihovna.jicin.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Ústí Regional Library",
+    "alias": "aHR0cHM6Ly9zdmt1bC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://svkul.knihovny.cz/logo.png"
+  },
+  
+    {
+        "alias": "6ab6cc7aa4e2f32e786a91b7464c6826ddcb18e8d822b97f1963f74138443d48",
+        "logo": "https://aleph.svkhk.cz/logo/logo_40.png",
+        "en-name": "The Research Library in Hradec Kr\u00e1lov\u00e9"
+    },
+    {
+        "alias": "cce26cd24e8ca26a982a58b5ba8ca17f4d725602af5299a92eee801dfe98bb57",
+        "logo": "https://aleph.uzei.cz/idp/images/logo_40.png",
+        "en-name": "Institute of Agricultural Economics and Information"
+    },
+    {
+        "alias": "df543e8f304a6b894b5a947084137e522b57e8a7eeb9a6e026eb2ddaad1b9c22",
+        "logo": "https://aleph.knihovna-pardubice.cz/idp/images/logo_40.png",
+        "en-name": "Regional Library in Pardubice"
+    },
+    {
+        "alias": "5a21926e8c1421ea9cfb12205c19436092f45e4e275b54b7173afa537da856df",
+        "logo": "https://archivnd.idp.rbit.cz/logo.png",
+        "en-name": "National Theatre Library Archive"
+    },
+    {
+        "alias": "72921911ce25069719649cc30495474f74b9e1fcb0b5476ade39f963449067e4",
+        "logo": "https://mksvit.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Svitavy"
+    },
+    {
+        "alias": "5ccda176258118264d5b210de2f26db59275b480467bf709470f19e6adef8262",
+        "logo": "https://ldap.cuni.cz/images/UK_logo_40.png",
+        "en-name": "Charles University"
+    },
+    {
+        "alias": "e946019ae03d38134d188bd30fea9de87158ef8e7e3fef28c04d0cdb832d253f",
+        "logo": "https://cbvk.knihovny.cz/logo.png",
+        "en-name": "The Research Library in Ceske Budejovice"
+    },
+    {
+        "alias": "a8da61ed2ba955195018724b288064c90f5009256aaef8336dcf6c35b5b4f7b2",
+        "logo": "https://mkchom.knihovny.cz/logo.png",
+        "en-name": "Chomutov Library"
+    },
+    {
+        "alias": "c07bbf410f1b33e4b4cfbbd2c8839251f9fb3ca9d5f17fdcdc01281fbf046024",
+        "logo": "https://dbousov.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library and Infocentre in Dolni Bousov"
+    },
+    {
+        "alias": "283f04ab10e0d8c54419cdb0e88cfb3f25ea870db050fc9c1bad77fb177f1a4c",
+        "logo": "https://eduid.czu.cz/CZU_EN_special_40x60.png",
+        "en-name": "Czech University of Life Sciences Prague"
+    },
+    {
+        "alias": "f366d6186aab0e27cf5fec0b72ca96685c22a35e0897d215a483aa12b7179c42",
+        "logo": "https://www.irsm.cas.cz/images/logo_usmh.png",
+        "en-name": "Institute of Rock Structure and Mechanics of The Czech Academy of Sciences"
+    },
+    {
+        "alias": "8ae8c420b67d7c5b1b1e141d997d69533879fae340cf6f9c48aacedc57bd0e00",
+        "logo": "https://www.jamu.cz/janacek.png",
+        "en-name": "Janacek Academy of Music and Performing Arts in Brno"
+    },
+    {
+        "alias": "a6f9e81a9312999fa4c30b17b93029478673eb90a11610ed525e3bb52e8f3976",
+        "logo": "https://eduid.prigo.cz/idp/images/logo.png",
+        "en-name": "The PRIGO University"
+    },
+    {
+        "alias": "2967c19f8bbe7741f0bcd1f9b70a13f17846465b0aec98c2cd35687dc7bae16c",
+        "logo": "https://eduid.vsers.cz/idp/images/vsers.png",
+        "en-name": "The College of European and Regional Studies"
+    },
+    {
+        "alias": "914e7672c1bf6ae86308a045b4ece695c28cd10f2e2d8e9935df97709bc7831c",
+        "logo": "https://eduid.vspj.cz/idp/images/logo.png",
+        "en-name": "College of Polytechnics Jihlava"
+    },
+    {
+        "alias": "aac72f222c898c0a62a8ab8a19a00cc7fa08d8ef4691662edb9915adef5774ab",
+        "logo": "https://journals.vstecb.cz/wp-content/themes/journals/images/logo.jpg",
+        "en-name": "Institute of Technology and Business in \u010cesk\u00e9 Bud\u011bjovice"
+    },
+    {
+        "alias": "002db8b2ff770cc62f5e404d7ea82696ce02bfd124a1bd5bd9700ab4421b2f2f",
+        "logo": "https://www.avu.cz/sites/default/files/editor/avu_logo_1_stranka_6.jpg",
+        "en-name": "AVU"
+    },
+    {
+        "alias": "9a94b65623bb0d13d1da4460fd169256c5f8a3c19f64a2f6f7e853a9e0f38cc1",
+        "logo": "https://web2.mlp.cz/logo/200.png",
+        "en-name": "Municipal Library of Prague"
+    },
+    {
+        "alias": "6c97b2ff82c9aa51cb5eba51d6b1aa095cf811236959d419b10c9694102c0f56",
+        "logo": "https://helium.jcu.cz/logo-ju-40.png",
+        "en-name": "University of South Bohemia in Ceske Budejovice"
+    },
+    {
+        "alias": "c84350fc7b4dd2266d14fda48750b4505596d3c1466af98da7e41cfa1f99e511",
+        "logo": "https://id.nm.cz/nm_logo.png",
+        "en-name": "National museum"
+    },
+    {
+        "alias": "7ec3ff71171a189556e6d5adf1db1ab44f3be06583835809fbee905dce6f9997",
+        "logo": "https://id.vse.cz/idp/images/vse-logo-cz_40px.png",
+        "en-name": "Prague University of Economics and Business"
+    },
+    {
+        "alias": "a1723075437964295868e34937a38936939582b5f571eaf109c12d0316d9f114",
+        "logo": "https://uit.opf.slu.cz/_media/slu-znacka-hlavni-200.png",
+        "en-name": "Silesian University in Opava"
+    },
+    {
+        "alias": "57565300d754cf315ba4c59af0107f0c28c2fd2290520e4ae7d9b6374a2b0627",
+        "logo": "https://idp.amu.cz/idp/images/amu_logo_40px.png",
+        "en-name": "Academy of Performing Arts in Prague"
+    },
+    {
+        "alias": "102004e24d1537eef2abc38fd3d2022c233e8527047dc0e73f1d608a898b3453",
+        "logo": "https://gedeon.cas.cz/loga/logo-arub-44.png",
+        "en-name": "Institute of Archeology of the Czech Academy of Sciences, Brno"
+    },
+    {
+        "alias": "ceb6f9ca13cc7633241621bfab2fbbb594f773b34f2963ba12db3ed121378f86",
+        "logo": "https://gedeon.cas.cz/loga/logo-arup-44.png",
+        "en-name": "Institute of Archaeology of the CAS, Prague"
+    },
+    {
+        "alias": "9ed780af24adb662f5ccdf2bbe2b4baaeedc2b3e345c656c96d27b6b780dc794",
+        "logo": "https://gedeon.cas.cz/loga/logo-bc-44.png",
+        "en-name": "Biology Centre AS CR"
+    },
+    {
+        "alias": "d9ecd0c99f7298ef9f63775ade5e2c1a5b8cc479817c635d4d8f26e167c5bf53",
+        "logo": "https://gedeon.cas.cz/loga/logo-ui-44.png",
+        "en-name": "Institute of Computer Science AS CR"
+    },
+    {
+        "alias": "38ea5dfe694a3a949fbd303bf7a798de120ff4c2e8da5607c72bf3c65b4225ad",
+        "logo": "https://www.czechglobe.cz/media/cg-white-cs.png",
+        "en-name": "Global Change Research Institute CAS"
+    },
+    {
+        "alias": "3f3c4d1934b817b5e89b050f6e8f3723a5542b2c2df7dd2a304eb261e9f79b0a",
+        "logo": "https://gedeon.cas.cz/loga/logo-eu-44.png",
+        "en-name": "The Institute of Ethnology of the Czech Academy of Sciences, v. v. i."
+    },
+    {
+        "alias": "f5e689d0db090641033c8949529815fe87d9d620155d8221a0e9ca948681c378",
+        "logo": "https://gedeon.cas.cz/loga/logoflu-44.png",
+        "en-name": "Institute of Philosophy AS CR"
+    },
+    {
+        "alias": "b3573b4ea83a8a440c074aec8faf8ea49790b8ccd3d59597eb23b047817dc93b",
+        "logo": "https://idpmain.icpf.cas.cz/loga/logo-gli-44.png",
+        "en-name": "Institute of Geology AS CR"
+    },
+    {
+        "alias": "707c3c3bfa66332c2708a5e1720a98f7d06d6a9cf0981f723ddac934ef2cc6c4",
+        "logo": "https://gedeon.cas.cz/loga/logo-hiu-44.png",
+        "en-name": "Institute of History of the ASCR"
+    },
+    {
+        "alias": "df583c4d280ab76ae81a80fcf9d268de1c919f65605bfcae84fb39094a955268",
+        "logo": "https://gedeon.cas.cz/loga/logo-iapg-44.png",
+        "en-name": "Institute of Animal Physiology and Genetics AS CR"
+    },
+    {
+        "alias": "b2ec0cc70c663d4bc253b17fa24ad3509f75273cf4e0afcf7eeebcd08c4a40f1",
+        "logo": "https://gedeon.cas.cz/loga/logo-bu-44.png",
+        "en-name": "Institute of Botany of the Czech Academy of Sciences"
+    },
+    {
+        "alias": "921296563fc720045528037819b977793b52dca3a0a9a4b43c4d07cceac612a4",
+        "logo": "https://gedeon.cas.cz/loga/logo-ibp-44.png",
+        "en-name": "Institute of Biophysics AS CR"
+    },
+    {
+        "alias": "2c55292b960bb9072a886392775009276c8736de32af4ef48aa10fbda5b19026",
+        "logo": "https://idpmain.icpf.cas.cz/loga/logo-icpf-44.png",
+        "en-name": "Institute of Chemical Process Fundamentals of the AS CR"
+    },
+    {
+        "alias": "9f81a5e1570511b92b1f5d38b2d02e91ed2b729196b76a15694d5984c7606474",
+        "logo": "https://gedeon.cas.cz/loga/logo-iic-44.png",
+        "en-name": "Institute of Inorganic chemistry of the Czech Academy of Sciences"
+    },
+    {
+        "alias": "7cdff79f84882ca9020f150ea366c91e6e42500c5a717edc5c4622fd89cb6f40",
+        "logo": "https://gedeon.cas.cz/loga/logo-usp-44.png",
+        "en-name": "Institute of State and Law of the Czech Academy of Sciences"
+    },
+    {
+        "alias": "d82b312804bce0afd1c5d247bd7e6226fe508029f90012924b537afa5d929b60",
+        "logo": "https://gedeon.cas.cz/loga/logo-ipp-44.png",
+        "en-name": "Institute of Plasma Physics AS CR"
+    },
+    {
+        "alias": "a6dc15b95aea958cf872da6c93d5ddc2a094f08e84cf05f630b0f55afeb530f4",
+        "logo": "https://gedeon.cas.cz/loga/logo-upt-44.png",
+        "en-name": "Institute of Scientific Instruments of the ASCR"
+    },
+    {
+        "alias": "7a9aacee087f489cc2212a33a4e045d87a5fbd09602a72b4a9142c7e641853e4",
+        "logo": "https://gedeon.cas.cz/loga/logo-itam-44.png",
+        "en-name": "Institute of Theoretical and Applied Mechanics AS CR"
+    },
+    {
+        "alias": "9e2ad5153831e16366e57086f77262543b5cf86942c72a378bb31498bf004d1c",
+        "logo": "https://uo.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library \u00dast\u00ed nad Orlic\u00ed"
+    },
+    {
+        "alias": "f4ca5f6c5859d882f16aea477cd64a4c5887d3df824b91c7ab29c66091fccfff",
+        "logo": "https://idp.lib.cas.cz/logo_knav.jpg",
+        "en-name": "Academy of Sciences Library"
+    },
+    {
+        "alias": "38029defb45f06357243fac71cc982a76c6fb5e133db74f31beac82a84406a91",
+        "logo": "https://gedeon.cas.cz/loga/logo-math-44.png",
+        "en-name": "Institute of Mathematics AS CR"
+    },
+    {
+        "alias": "2e4d5c6a218feceb514712075400d030dc79cbc6464f805c65e042cea9599e91",
+        "logo": "https://idp.mendelu.cz/idp/images/logo40en.png",
+        "en-name": "Mendel University in Brno - IdP"
+    },
+    {
+        "alias": "b1f03396321daec656f9d7b6c3a672da1c5af18c249f5aacfb0df4321321d317",
+        "logo": "https://moderniknihovna.cz/images/logo/logo_mkct_small.png",
+        "en-name": "Municipal Library \u010cesk\u00e1 T\u0159ebov\u00e1"
+    },
+    {
+        "alias": "530ad824a3df3bdeadf65c3d358a8bc0d45cedba3ad28daed8f64b7d4bae234b",
+        "logo": "https://idp.npu.cz/idp/images/NPU_logo.jpg",
+        "en-name": "The National Heritage Institute"
+    },
+    {
+        "alias": "351a559068260403f367a8c8dac9f61309a949af3c29eb7a37d63b3abc52934f",
+        "logo": "https://idp.ntm.cz/idp/images/idp.ntm.cz.jpg",
+        "en-name": "National technical museum"
+    },
+    {
+        "alias": "f7b533fc505958f0a120e2693ccb9408e45f33b561d6381f526819a2150dbb15",
+        "logo": "https://gedeon.cas.cz/loga/logo-psu-44.png",
+        "en-name": "The Institute of Psychology of Academy of Science of Czech Republic"
+    },
+    {
+        "alias": "91088772aeb592e6663b470def5ef14d90942b057c13251acd81f5558b3cc27f",
+        "logo": "https://karvina.idp.rbit.cz/logo.png",
+        "en-name": "Region\u00e1ln\u00ed knihovna Karvin\u00e1"
+    },
+    {
+        "alias": "7add8971bd87081eec38cd5de32bb24f3ec79494a227c8a2b377be28e97157c7",
+        "logo": "https://idp.savs.cz/idp/images/idp.savs.cz.jpg",
+        "en-name": "\u0160KODA AUTO University"
+    },
+    {
+        "alias": "6f79d0f606dfd6267d71536837e16eee9a7aeb0ceeb052612d9fdc6ad908134f",
+        "logo": "https://gedeon.cas.cz/loga/logo-slu-44.png",
+        "en-name": "Institute of Slavonic Studies of the CAS"
+    },
+    {
+        "alias": "0f51feb98e720e6be59f12289c4dedf36a54a2446b364f7250baed6a62b5ee6f",
+        "logo": "https://gedeon.cas.cz/loga/logo-soc-44.png",
+        "en-name": "Institute of Sociology AS CR"
+    },
+    {
+        "alias": "4567d28f50d030041ca4d5670ea5b04399d88f20a21d08b0eb0ae85659d4a740",
+        "logo": "https://idp.svkpk.cz/idp/images/logo_40.png",
+        "en-name": "The Education and Research Library of the Pilsener Region"
+    },
+    {
+        "alias": "a5cf97912a12aeb85eb87134f0e7a6e83aa6442ebf1d18408ec59a395c0ebd7d",
+        "logo": "https://gedeon.cas.cz/loga/logo-udu-44.png",
+        "en-name": "Institute of Art History of the Academy of Sciences of the Czech Republic"
+    },
+    {
+        "alias": "19aa7efbadc416512c5bf8b375097ac5669132fccc8db697d6e1c91781c8d5c4",
+        "logo": "https://idpmain.icpf.cas.cz/loga/logo-ueb-44.png",
+        "en-name": "Institute of Experimental Botany AS CR"
+    },
+    {
+        "alias": "e9594193ed2a696cfc95265eaba5430d603b15816e64da357d6c3a29e1746ce8",
+        "logo": "https://gedeon.cas.cz/loga/logo-ugn-44.png",
+        "en-name": "Institute of Geonics of the CAS"
+    },
+    {
+        "alias": "f3674f58b2f8287ed3ef4492e0d1c849a3b08b0bc91a63b6814a63f00876b1a2",
+        "logo": "https://idp.uhk.cz/idp/images/logo_40.png",
+        "en-name": "University of Hradec Kralove"
+    },
+    {
+        "alias": "c9a9fd31ff3b25db4b16b407f2d9c99165bf0b7135a1487dda819eafb8098816",
+        "logo": "https://gedeon.cas.cz/loga/logo-ujc-44.png",
+        "en-name": "Czech Language Institute of the Czech Academy of Sciences"
+    },
+    {
+        "alias": "325f3ca80c98895430196ea637c4ade05c7f56778ae5f53997113f345d6a0478",
+        "logo": "https://james.ujep.cz/logo_ujep40.png",
+        "en-name": "Jan Evangelista Purkyne University in Usti nad Labem"
+    },
+    {
+        "alias": "f33c48a3c9dc0d225d92c0b7f43fb790d1880f9ca18a32f45678132e4a59131b",
+        "logo": "https://gedeon.cas.cz/loga/logo-ujf-44.png",
+        "en-name": "Nuclear Physics Institute of the ASCR"
+    },
+    {
+        "alias": "53c30f413e2445022e468138f663effc3e385d13a11533da74be1429b5abfa48",
+        "logo": "https://idp.unob.cz/idp/images/znak_uo_wayf.png",
+        "en-name": "University of defence"
+    },
+    {
+        "alias": "db95001bf975961c60f49dc6f65f8051c679d4ec5db7015341da340ce55c14fe",
+        "logo": "https://idp.upce.cz/images/logo-40.png",
+        "en-name": "University of Pardubice"
+    },
+    {
+        "alias": "633ca3c255d99dde5cae63fc5137f73759465e93c491f09513e68d2e40f7aa8b",
+        "logo": "https://idp.upol.cz/idp/images/UP_logo_horizont_cz_200.png",
+        "en-name": "Palacky University Olomouc"
+    },
+    {
+        "alias": "ec893cb03859b98f011afbd1c304e363b0fe2a4bb40b7e83eb674034a5ebfe4d",
+        "logo": "https://gedeon.cas.cz/loga/logo-usd-44.png",
+        "en-name": "Institute of Contemporary History"
+    },
+    {
+        "alias": "62461ae65b4399c4b1efaa81b26474cb2179b5cc1a5bfefb9f446051294a5455",
+        "logo": "https://jiftach.cas.cz/loga/logo-utia-44.png",
+        "en-name": "Institute of Information Theory and Automation AS CR"
+    },
+    {
+        "alias": "be6efff8239df037e03ff75579db6a944eb0a00ccff49eb6a372a95b3ea48115",
+        "logo": "https://www.vetuni.cz/imgs/vetuni_logo_40x40.jpg",
+        "en-name": "University of Veterinary Sciences Brno"
+    },
+    {
+        "alias": "cf965578e52e6a0137f03e21459e303686bad07d87154408006bca6e88843e51",
+        "logo": "https://idp.vsb.cz/idp/images/vsb-logo-40.svg",
+        "en-name": "VSB - TU Ostrava"
+    },
+    {
+        "alias": "a7f5cba60334776c7468a656b119acea5184f184a60b1972e6acfbb9ba346937",
+        "logo": "https://idp2.civ.cvut.cz/cvutid/logo_cvut_40pix.png",
+        "en-name": "Czech Technical University in Prague"
+    },
+    {
+        "alias": "a1b9e88cb4b6e556a19fe0981bd54f7f837001d839e238b7bb5cab30ac7bb711",
+        "logo": "https://id.muni.cz/muni-80x80.png",
+        "en-name": "Masaryk University"
+    },
+    {
+        "alias": "ce120b3e65033743e872caa5ed8b469047f282671258307a85910b8c7585efa8",
+        "logo": "https://spock.osu.cz/idp/images/logo40.png",
+        "en-name": "University of Ostrava"
+    },
+    {
+        "alias": "4cfa0231d284252e8a03a651b0ab0b0cfccfabcc1f08b4bfbca5ea5df26015fd",
+        "logo": "https://katalog.cnb.cz/auth/saml2-idp/organization-logo",
+        "en-name": "Czech National Bank"
+    },
+    {
+        "alias": "ea86a75807086849a86dbc62fa62fea03cb580b4f53cd2125a35bb6a3948daa1",
+        "logo": "https://katalog.knihovna.jicin.cz/auth/saml2-idp/organization-logo",
+        "en-name": "Vaclav Ctvrtek Library"
+    },
+    {
+        "alias": "808023fad97e0d667c5c3a83e2cf9089ad7c611e52cb7776b606ab1ddd4c97eb",
+        "logo": "https://katalog.mekvalmez.cz/auth/saml2-idp/organization-logo",
+        "en-name": "The Public Library Vala\u0161sk\u00e9 Mezi\u0159\u00ed\u010d\u00ed"
+    },
+    {
+        "alias": "a46c3cfd5ce86a3a43542c98e09d455f26f45b795f37858633bae1adde15e29b",
+        "logo": "https://katalog.npmk.cz/auth/saml2-idp/organization-logo",
+        "en-name": "The National Pedagogical Museum and Library of J. A. Comenius"
+    },
+    {
+        "alias": "eeac9ec9c4250fcb2b143a8f87606e9f3d3075892b266f87edaacd8a0846ac18",
+        "logo": "https://katalog.svkos.cz/logo/logo_40.png",
+        "en-name": "Moravian-Silesian Research Library in Ostrava"
+    },
+    {
+        "alias": "8f5e01102d27636bed24e81f7068dc4b7615a5bae839c97dfe41cf2b65b7006b",
+        "logo": "https://katalog.vcm.cz/auth/saml2-idp/organization-logo",
+        "en-name": "East Bohemia Museum in Pardubice"
+    },
+    {
+        "alias": "89648ccebeece380a27e0d0ec9adbe15be5f65973b9e142eab7b48fde9d96849",
+        "logo": "https://katalogcentral.mvk.cz/auth/saml2-idp/organization-logo",
+        "en-name": "Masaryk Public Library"
+    },
+    {
+        "alias": "8c157a2d77bb2a10bef1e824257c456d34914adecb97d5cf53dd5b36c533a2ad",
+        "logo": "https://kfbz.knihovny.cz/logo.png",
+        "en-name": "Regional Library Zl\u00edn"
+    },
+    {
+        "alias": "8b9f03256f5793f2bcf71edf31cb9133165079397b866ff3b4a957db9e280ae4",
+        "logo": "https://kjdpb.knihovny.cz/logo.png",
+        "en-name": "Jan Drda\u00b4s Library"
+    },
+    {
+        "alias": "8ceeed5929b089f534fa33df7cd4155ed7c4ee1b3a6010c55d1d3b75e95636b2",
+        "logo": "https://kjm.knihovny.cz/logo.png",
+        "en-name": "Ji\u0159\u00ed Mahen Library in Brno"
+    },
+    {
+        "alias": "04a37acc3c8575871ebd980967cd1c05d83c4847674ed2ea11932648b1693c72",
+        "logo": "https://kkdvy.knihovny.cz/logo.png",
+        "en-name": "Karel Dvoracek Library"
+    },
+    {
+        "alias": "ece3e0591bbca9573e514bf37396d1a9012303c0ddda033fa6ff48ceeb17fca5",
+        "logo": "https://kkvy.knihovny.cz/logo.png",
+        "en-name": "Regional Library Vyso\u010dina"
+    },
+    {
+        "alias": "a5808962f12a65ac940827e262996b4df90f1f1312b091ae6e9fd95da22b7587",
+        "logo": "https://kmol.knihovny.cz/logo.png",
+        "en-name": "The Library of the City Olomouc"
+    },
+    {
+        "alias": "0bb0a0f47b6244e32df4b4951351f140bf7f30fcb906c6c40a68c3e4a1707347",
+        "logo": "https://mkck.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Cesky Krumlov"
+    },
+    {
+        "alias": "85c09f1abeb0685836e61bf8f132b82d401c2bedc3b1a1ce7a3efdd4e118505b",
+        "logo": "https://havirov.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library in Havirov"
+    },
+    {
+        "alias": "bb3f201907c0b89bb05578e9033b49a064f2c64c9f8e7177941b8014b8399e41",
+        "logo": "https://mkklat.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Klatovy"
+    },
+    {
+        "alias": "27b7f404d21dc6d3c024a57a608f38b9390f5c594b01ba7c3937f27bb41b05ae",
+        "logo": "https://mkpel.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Pelhrimov"
+    },
+    {
+        "alias": "2b3a5345ac3b2bdd81e88c3ef025746bd7d6d72db9c776af4649af974086272b",
+        "logo": "https://mkpisek.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Pisek"
+    },
+    {
+        "alias": "8c4c96728206269adba6608cdfeb65f3a1039e6f7036ab16baa7326ce8aa497d",
+        "logo": "https://mkjh.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Jind\u0159ich\u016fv Hradec"
+    },
+    {
+        "alias": "0ac5790da644b02002f71f90a66953f8860b42122c4507bbe6b6907173377337",
+        "logo": "https://mkcl.knihovny.cz/logo.png",
+        "en-name": "Municipal Library \u010cesk\u00e1 L\u00edpa"
+    },
+    {
+        "alias": "963b171a82e555359363aa45c633ea8d8673ce8cf6a0ea8ec36c6566ab8451f7",
+        "logo": "https://mkjihlava.knihovny.cz/logo.png",
+        "en-name": "Jihlava Town Library"
+    },
+    {
+        "alias": "b1359f4df2e5966e21e191eb99fdab3db07a7940dc7bb8e566eca8f9ec7a7aca",
+        "logo": "https://mkkh.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Kutn\u00e1 Hora"
+    },
+    {
+        "alias": "1d1f2f1a7e12330f0166eba80ab8c0d8f0481e064b92a4f2950ca51090d4a589",
+        "logo": "https://mknbk.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Nymburk"
+    },
+    {
+        "alias": "a1be581659e38634f01afad3ed2e8c6beed2b42e12418f59d802a14d91469cb0",
+        "logo": "https://vmyto.idp.rbit.cz/logo.png",
+        "en-name": "Municipal library Vysoke Myto"
+    },
+    {
+        "alias": "dd947901af974c3e142b4e9a81d3cc77c7602f0e18a42b91c3b3d8f2b1859171",
+        "logo": "https://vratimov.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library Vratimov"
+    },
+    {
+        "alias": "4762117df992b4d97cedd94d95340cb7babe2cbc650b4f1a5064278adcdc8275",
+        "logo": "https://knep.knihovny.cz/logo.png",
+        "en-name": "Eduard Petiska Library"
+    },
+    {
+        "alias": "726f2c2148cffa8f4e7af5c1de2974c7fe97b2e947666a1d575c5af5992596a5",
+        "logo": "https://mkhol.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Hole\u0161ov"
+    },
+    {
+        "alias": "bbdf4c0f279a7198abd33feb24d92674dc90619df5629312d9e8e7642ee040a0",
+        "logo": "https://mkklimkovice.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Klimkovice"
+    },
+    {
+        "alias": "4b244885016103fa8f23ee54e0a1de77fdaa91af23096a81bdb09188e695ef9c",
+        "logo": "https://mkmilovice.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Milovice"
+    },
+    {
+        "alias": "a2677458f8b45888fba50cda76b1553b9f65379dcf9d05b4f5a60aae3a02f8c3",
+        "logo": "https://mkplzen.knihovny.cz/logo.png",
+        "en-name": "Pilsen City Library"
+    },
+    {
+        "alias": "edc8e663d6c407e0ffe003516348af84b16cd450e1102b5f03c60d815fb4e59d",
+        "logo": "https://mkricany.knihovny.cz/logo.png",
+        "en-name": "Huss' Library Ricany"
+    },
+    {
+        "alias": "aa118357e9cbe576dc644227fdc5aa536f80e9ad1a6f65e0184864d5396c05d9",
+        "logo": "https://beroun.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library in Beroun"
+    },
+    {
+        "alias": "f0416871b3a1a05b81b00c20f43bbd9634d5a6e553b0e3e11bc2ad35a9df8005",
+        "logo": "https://breclav.idp.rbit.cz/logo.png",
+        "en-name": "Municipal library in Breclav"
+    },
+    {
+        "alias": "bd3ed93065c472eec5936078f16712f30869ac39ecbc4440aa7740e6b032c325",
+        "logo": "https://chocen.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library Choce\u0148"
+    },
+    {
+        "alias": "0314cd99ac6ca24fcc3f90f746622b0148fd8c0987b236ecb5e61863da0a2ebb",
+        "logo": "https://frenstat.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library Fren\u0161t\u00e1t pod Radho\u0161t\u011bm"
+    },
+    {
+        "alias": "721b06ae9d873105fa7c89eebf74e106bd30abf9289d836e9d88c6f199c21635",
+        "logo": "https://mkhk.knihovny.cz/logo.png",
+        "en-name": "Municipal Library of Hradec Kralove"
+    },
+    {
+        "alias": "0d1cf5af9a228c16a921123a7eb68742ae8b5e589fa82994d569de06f3bec2c3",
+        "logo": "https://mkhod.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Hodonin"
+    },
+    {
+        "alias": "7f286047c2691873093202dd9a91f18b50f94cbc905ad4f6372c1380ecb92ffa",
+        "logo": "https://mkhnm.knihovny.cz/logo.png",
+        "en-name": "Municipal Library and Information centre of Hradec nad Moravic\u00ed"
+    },
+    {
+        "alias": "b8a1d319cc85e3d27b547f6cae76bcbf0883c5c6d24dff0d3efa066176577b21",
+        "logo": "https://mkjar.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Jarom\u011br"
+    },
+    {
+        "alias": "d696d4f5af8feac0c157ec80ac4d2dc698e9372c923fbdff9663a9783d5a719b",
+        "logo": "https://mkkolin.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Kol\u00edn"
+    },
+    {
+        "alias": "10447662ae1f179496d81bae8f004312fc54984a041177dd297db3dd9784a05e",
+        "logo": "https://kkkv.knihovny.cz/logo.png",
+        "en-name": "Regional Library Karlovy Vary"
+    },
+    {
+        "alias": "f29cd951920976bccfad40faefbfd6261c17c6d5664ff95a021ab9c1a15aef90",
+        "logo": "https://mkml.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Marianske Lazne"
+    },
+    {
+        "alias": "dca42be92f842ccf8a70353afcc83a30f528f584094bd806bb6b1dd889b58af8",
+        "logo": "https://neratovice.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library Neratovice"
+    },
+    {
+        "alias": "4279807f9f0867fe969b24bb42146fce916f70bc3e74a0412b9745d418b1bed2",
+        "logo": "https://mkpr.knihovny.cz/logo.png",
+        "en-name": "Municipal Library P\u0159erov"
+    },
+    {
+        "alias": "4f5a72ec1ac08a6b6d0339d079b2d8559c66879e8807e1abe6e660b00e9a9df4",
+        "logo": "https://mkta.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library T\u00e1bor"
+    },
+    {
+        "alias": "c049ad194ae3825072ed450bb31ce8bdcc6eb1bce827dbdc9cfc7548e71fba1c",
+        "logo": "https://mktrebic.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in T\u0159eb\u00ed\u010d"
+    },
+    {
+        "alias": "745c9cbc41dde16233f34a6e2e6c4ec9583fbccf861d7d56382558e4756b3f6b",
+        "logo": "https://mktri.knihovny.cz/logo.png",
+        "en-name": "Library in T\u0159inec"
+    },
+    {
+        "alias": "3e3c8156ecd9a26be06292c92da334f2a3dc6eec17c045e5c73f4ddc4c680b36",
+        "logo": "https://mkzn.knihovny.cz/logo.png",
+        "en-name": "Municipal library in Znojmo"
+    },
+    {
+        "alias": "b13a2a014986f25369e035cfad176f9fe347735005d6d989d9b06ae7d632dcf2",
+        "logo": "https://knir.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Roznov pod Radhostem"
+    },
+    {
+        "alias": "7c2d268088bb5b38f3988eaef3882d1f22a60f0a90fc1bcccd349e0985e45e08",
+        "logo": "https://okpb.knihovny.cz/logo.png",
+        "en-name": "District Library of Petr Bezru\u010d in Opava"
+    },
+    {
+        "alias": "58f9caa8b40f7245f111225ef719b17f2932ba301c511695e828a3b6382fdc92",
+        "logo": "https://kpwin.knih-cheb.cz/auth/saml2-idp/organization-logo",
+        "en-name": "Municipal Library in Cheb, contributory organization"
+    },
+    {
+        "alias": "03cbd5d3fdd70b409aeb6e07607c423459f1104c97c32e65bf5bb5a98620e6ce",
+        "logo": "https://mkboskovice.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Boskovice"
+    },
+    {
+        "alias": "e9e7b1836299889b3f1be7c84bade49f7f04f9e2978848cd182ee89711cfda85",
+        "logo": "https://kvkl.knihovny.cz/logo.png",
+        "en-name": "Regional Research Library in Liberec"
+    },
+    {
+        "alias": "3730f34dc87ee04847a3986aeb349efeaea0db452f924995cffc1f017d9c9a40",
+        "logo": "https://ldh.idu.cz/auth/saml2-idp/organization-logo",
+        "en-name": "Arts and Theatre Institute"
+    },
+    {
+        "alias": "0b59f6b09baeb8edfbce15185cf1781271a4417be23ab68972947c1ea84466cd",
+        "logo": "https://mkkl.knihovny.cz/logo.png",
+        "en-name": "Municipal Library in Kladno"
+    },
+    {
+        "alias": "2af44e489f8925bda7945fbc8a94fe7d0c6fdff5d2c5939ebc757ab94df59ae6",
+        "logo": "https://mkmt.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library in Moravska Trebova"
+    },
+    {
+        "alias": "78ce77889daf5011cd610aa2621d0ee44951e897477fcfabf88ad4160c4feee9",
+        "logo": "https://mkostrov.knihovny.cz/logo.png",
+        "en-name": "Municipal Library Ostrov"
+    },
+    {
+        "alias": "e43a091e966cf513902cea64d02ebc38c47f97766070ac40d01d685f1fa74003",
+        "logo": "https://mktrut.knihovny.cz/logo.png",
+        "en-name": "Municipal library with regional services in Trutnov"
+    },
+    {
+        "alias": "7d8fac9ac87cb0a7d901202bf924674398d1168f86d18873b9a609b4c8e2e56d",
+        "logo": "https://nipos.idp.rbit.cz/logo.png",
+        "en-name": "National Information and Consulting Centre for Culture"
+    },
+    {
+        "alias": "c68ac7d14c2175b6f5a993d05f05f38dc201d6b8655eb1d61fcb7809de0d32f1",
+        "logo": "https://www.medvik.cz/images/medvik-logo.png",
+        "en-name": "National Medical Library, Prague - Medvik"
+    },
+    {
+        "alias": "8288cdfe35475d4c217475e74fe71d8a2862efa756eda4fbb775fcb981d24476",
+        "logo": "https://shib.zcu.cz/idp/images/zcu_logo_40px.png",
+        "en-name": "University of West Bohemia"
+    },
+    {
+        "alias": "e530555197e440d02ee974bb3f92c31983d923b428db470096d0f5ee76d52383",
+        "logo": "https://liane.tul.cz/img/znak-tul.png",
+        "en-name": "Technical University of Liberec"
+    },
+    {
+        "alias": "204f1520147d1ac0de3f78b0ac6c2f19bebcca65c6146548d7aa3216106051fb",
+        "logo": "https://www.eduid.cz/idp-loga/mzk.png",
+        "en-name": "Moravian Library"
+    },
+    {
+        "alias": "ff494ea93051c101b18189b7e847e87756079d4f9accb7d3f6b433a240a2a574",
+        "logo": "https://www.en.nkp.cz/++resource++plonetheme.nkp.images/nkp_logo_en.png",
+        "en-name": "The National Library of the Czech Republic"
+    },
+    {
+        "alias": "38fcbb7877155156fb0167183a9df11a0519c0b2aa7358f878ef63b88ecca900",
+        "logo": "https://www.techlib.cz/public/images/logo-eduid.png",
+        "en-name": "National Library of Technology"
+    },
+    {
+        "alias": "fca69933205e01f071ef6c8e0cc98db69514bf959cdd322577af9c3b5c0895f0",
+        "logo": "https://shibboleth.utb.cz/assets/img/logo_cs_160x17.png",
+        "en-name": "Tomas Bata University in Zl\u00edn"
+    },
+    {
+        "alias": "79d01bb402106466896d7e622696366289b8e709536cf3f4538a36d27fe8c67e",
+        "logo": "https://www.umprum.cz/logos/um2-200-cz.png",
+        "en-name": "Academy of Arts, Architecture and Design in Prague"
+    },
+    {
+        "alias": "f5b03c83f7002e9b04c8a8acdd0c30160ea1a32b09a4f2448e79b27813290d21",
+        "logo": "https://shibo.vkol.cz/logo_40.png",
+        "en-name": "Research Library in Olomouc"
+    },
+    {
+        "alias": "9ea89a07cd130f32c8227635ae67a2d50a9bce93b574930c56c04f4ea2aab4b9",
+        "logo": "https://dkralove.idp.rbit.cz/logo.png",
+        "en-name": "Municipal Library Slavoj in Dvur Kralove nad Labem"
+    },
+    {
+        "alias": "45c3a4b0b9cdbd33cadefbb8245ecd85eaaa839a946bc3293b5ba454937c99dd",
+        "logo": "https://svkkl.knihovny.cz/logo.png",
+        "en-name": "Central Bohemian Research Library"
+    },
+    {
+        "alias": "42ec382872b08c8a4114a594a7b152bae2ed2ff632f6e982dffaf557709cc823",
+        "logo": "https://svkul.knihovny.cz/logo.png",
+        "en-name": "\u00dast\u00ed Regional Library"
+    },
+    {
+        "alias": "9d1f19be161289b1239beaf23abbed6b302a4a22f5c27973e985db0e36be13fb",
+        "logo": "https://whoami.cesnet.cz/idp/images/cesnet-logo-40.png",
+        "en-name": "CESNET"
+    },
+    {
+        "alias": "7be3c932cdccdcdf1f1cb9043fb78fd1bcfc295c5306a6cf8f99d3ebcac59c9f",
+        "logo": "https://wsso.vscht.cz/logo_vscht_40px.png",
+        "en-name": "University of Chemistry and Technology, Prague"
+    },
+    {
+        "alias": "8d1afec10de064fadc2b43ed123361965d7a3b06f69eca3e727f60e75833b5a5",
+        "logo": "https://www.vutbr.cz/logo_idp.png",
+        "en-name": "Brno University of Technology"
+    },
+    {
+        "alias": "c2202fe000b1cdb32e0730d43ac0040508a52920e16091032171726145e72aff",
+        "logo": "https://ndk.cz/img/idndk_35x160.png",
+        "en-name": "Identities NDK"
+    },
+    
+    {
+    "en-name": "AVU",
+    "alias": "aHR0cHM6Ly9lcmlzLmF2dS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.avu.cz/sites/default/files/editor/avu_logo_1_stranka_6.jpg"
+  },
+  {
+    "en-name": "Academy of Arts, Architecture and Design in Prague",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnZzdXAuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.umprum.cz/logos/um2-200-cz.png"
+  },
+  {
+    "en-name": "Academy of Performing Arts in Prague",
+    "alias": "aHR0cHM6Ly9pZHAuYW11LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.amu.cz/idp/images/amu_logo_40px.png"
+  },
+  {
+    "en-name": "Academy of Sciences Library",
+    "alias": "aHR0cHM6Ly9pZHAubGliLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.lib.cas.cz/logo_knav.jpg"
+  },
+  {
+    "en-name": "Arts and Theatre Institute",
+    "alias": "aHR0cHM6Ly9sZGguaWR1LmN6L2F1dGgvc2FtbDItaWRw",
+    "logo": "https://ldh.idu.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Biology Centre AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuYmMuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-bc-44.png"
+  },
+  {
+    "en-name": "Brno University of Technology",
+    "alias": "aHR0cHM6Ly93d3cudnV0YnIuY3ovU1NPL3NhbWwyL2lkcA",
+    "logo": "https://www.vutbr.cz/logo_idp.png"
+  },
+  {
+    "en-name": "CESNET",
+    "alias": "aHR0cHM6Ly93aG9hbWkuY2VzbmV0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://whoami.cesnet.cz/idp/images/cesnet-logo-40.png"
+  },
+  {
+    "en-name": "Charles University",
+    "alias": "aHR0cHM6Ly9jYXMuY3VuaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://ldap.cuni.cz/images/UK_logo_40.png"
+  },
+  {
+    "en-name": "Chomutov Library",
+    "alias": "aHR0cHM6Ly9jaG9tdXRvdnNrYWtuaWhvdm5hLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkchom.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "College of Polytechnics Jihlava",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c3BqLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://eduid.vspj.cz/idp/images/logo.png"
+  },
+  {
+    "en-name": "Czech Language Institute of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAudWpjLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ujc-44.png"
+  },
+  {
+    "en-name": "Czech National Bank",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLmNuYi5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.cnb.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Czech Technical University in Prague",
+    "alias": "aHR0cHM6Ly9pZHAyLmNpdi5jdnV0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp2.civ.cvut.cz/cvutid/logo_cvut_40pix.png"
+  },
+  {
+    "en-name": "Czech University of Life Sciences Prague",
+    "alias": "aHR0cHM6Ly9lZHVpZC5jenUuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://eduid.czu.cz/CZU_EN_special_40x60.png"
+  },
+  {
+    "en-name": "District Library of Petr Bezruè in Opava",
+    "alias": "aHR0cHM6Ly9rcGJvLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://okpb.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "East Bohemia Museum in Pardubice",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLnZjbS5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.vcm.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Eduard Petiska Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5icmFuZHlzbmwuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://knep.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Global Change Research Institute CAS",
+    "alias": "aHR0cHM6Ly9pZHAuY3plY2hnbG9iZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.czechglobe.cz/media/cg-white-cs.png"
+  },
+  {
+    "en-name": "Huss' Library Ricany",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5yaWNhbnkuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkricany.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Identities NDK",
+    "alias": "aHR0cHM6Ly9pZC5uZGsuY3ovYXV0aC9yZWFsbXMvVXNlcg",
+    "logo": "https://ndk.cz/img/idndk_35x160.png"
+  },
+  {
+    "en-name": "Institute of Agricultural Economics and Information",
+    "alias": "aHR0cHM6Ly9hbGVwaC51emVpLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://aleph.uzei.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "Institute of Animal Physiology and Genetics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWFwZy5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-iapg-44.png"
+  },
+  {
+    "en-name": "Institute of Archaeology of the CAS, Prague",
+    "alias": "aHR0cHM6Ly9pZHAuYXJ1cC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-arup-44.png"
+  },
+  {
+    "en-name": "Institute of Archeology of the Czech Academy of Sciences, Brno",
+    "alias": "aHR0cHM6Ly9pZHAuYXJ1Yi5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-arub-44.png"
+  },
+  {
+    "en-name": "Institute of Art History of the Academy of Sciences of the Czech Republic",
+    "alias": "aHR0cHM6Ly9pZHAudWR1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-udu-44.png"
+  },
+  {
+    "en-name": "Institute of Biophysics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWJwLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ibp-44.png"
+  },
+  {
+    "en-name": "Institute of Botany of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWJvdC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-bu-44.png"
+  },
+  {
+    "en-name": "Institute of Chemical Process Fundamentals of the AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaWNwZi5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-icpf-44.png"
+  },
+  {
+    "en-name": "Institute of Computer Science AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuY3MuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-ui-44.png"
+  },
+  {
+    "en-name": "Institute of Contemporary History",
+    "alias": "aHR0cHM6Ly9pZHAudXNkLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-usd-44.png"
+  },
+  {
+    "en-name": "Institute of Experimental Botany AS CR",
+    "alias": "aHR0cHM6Ly9pZHAudWViLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-ueb-44.png"
+  },
+  {
+    "en-name": "Institute of Geology AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuZ2xpLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idpmain.icpf.cas.cz/loga/logo-gli-44.png"
+  },
+  {
+    "en-name": "Institute of Geonics of the CAS",
+    "alias": "aHR0cHM6Ly9pZHAudWduLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ugn-44.png"
+  },
+  {
+    "en-name": "Institute of History of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAuaGl1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-hiu-44.png"
+  },
+  {
+    "en-name": "Institute of Information Theory and Automation AS CR",
+    "alias": "aHR0cHM6Ly9pZHAudXRpYS5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://jiftach.cas.cz/loga/logo-utia-44.png"
+  },
+  {
+    "en-name": "Institute of Inorganic chemistry of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWljLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-iic-44.png"
+  },
+  {
+    "en-name": "Institute of Mathematics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAubWF0aC5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-math-44.png"
+  },
+  {
+    "en-name": "Institute of Philosophy AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuZmx1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logoflu-44.png"
+  },
+  {
+    "en-name": "Institute of Plasma Physics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaXBwLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ipp-44.png"
+  },
+  {
+    "en-name": "Institute of Rock Structure and Mechanics of The Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9lZHVpZC5pcnNtLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.irsm.cas.cz/images/logo_usmh.png"
+  },
+  {
+    "en-name": "Institute of Scientific Instruments of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAuaXNpYnJuby5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-upt-44.png"
+  },
+  {
+    "en-name": "Institute of Slavonic Studies of the CAS",
+    "alias": "aHR0cHM6Ly9pZHAuc2x1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-slu-44.png"
+  },
+  {
+    "en-name": "Institute of Sociology AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuc29jLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-soc-44.png"
+  },
+  {
+    "en-name": "Institute of State and Law of the Czech Academy of Sciences",
+    "alias": "aHR0cHM6Ly9pZHAuaWxhdy5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-usp-44.png"
+  },
+  {
+    "en-name": "Institute of Technology and Business in Èeské Budìjovice",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c3RlY2IuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://journals.vstecb.cz/wp-content/themes/journals/images/logo.jpg"
+  },
+  {
+    "en-name": "Institute of Theoretical and Applied Mechanics AS CR",
+    "alias": "aHR0cHM6Ly9pZHAuaXRhbS5jYXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://gedeon.cas.cz/loga/logo-itam-44.png"
+  },
+  {
+    "en-name": "Jan Drda´s Library",
+    "alias": "aHR0cHM6Ly9ramQucGIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kjdpb.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Jan Evangelista Purkyne University in Usti nad Labem",
+    "alias": "aHR0cHM6Ly9pZHAudWplcC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://james.ujep.cz/logo_ujep40.png"
+  },
+  {
+    "en-name": "Janacek Academy of Music and Performing Arts in Brno",
+    "alias": "aHR0cHM6Ly9lZHVpZC5qYW11LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://www.jamu.cz/janacek.png"
+  },
+  {
+    "en-name": "Jihlava Town Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1qaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkjihlava.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Jiøí Mahen Library in Brno",
+    "alias": "aHR0cHM6Ly9ram0uY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kjm.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Karel Dvoracek Library",
+    "alias": "aHR0cHM6Ly9ra2R2eXNrb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://kkdvy.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Library in Tøinec",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRyaW5lYy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mktri.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Masaryk University",
+    "alias": "aHR0cHM6Ly9pZHAyLmljcy5tdW5pLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://id.muni.cz/muni-80x80.png"
+  },
+  {
+    "en-name": "Mendel University in Brno - IdP",
+    "alias": "aHR0cHM6Ly9pZHAubWVuZGVsdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.mendelu.cz/idp/images/logo40en.png"
+  },
+  {
+    "en-name": "Moravian Library",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLm16ay5jei9zaW1wbGVzYW1sL21ldGFkYXRhLnhtbA",
+    "logo": "https://www.eduid.cz/idp-loga/mzk.png"
+  },
+  {
+    "en-name": "Moravian-Silesian Research Library in Ostrava",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLnN2a29zLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://katalog.svkos.cz/logo/logo_40.png"
+  },
+  {
+    "en-name": "Municipal Library Choceò",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWNob2Nlbi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://chocen.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Frenštát pod Radhoštìm",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWZyZW5zdGF0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://frenstat.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Holešov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5ob2xlc292LmluZm8vaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkhol.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Jaromìr",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWphcm9tZXIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkjar.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Jindøichùv Hradec",
+    "alias": "aHR0cHM6Ly9rbmloamguY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mkjh.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Klatovy",
+    "alias": "aHR0cHM6Ly9rbmloLWt0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkklat.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Klimkovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5tZXN0by1rbGlta292aWNlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkklimkovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Kolín",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWtvbGluLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkkolin.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Kutná Hora",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1raC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkkh.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Marianske Lazne",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYW1sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkml.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Milovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5tZXN0by1taWxvdmljZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkmilovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Neratovice",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYW5lcmF0b3ZpY2UuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://neratovice.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Nymburk",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1uYmsuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mknbk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Ostrov",
+    "alias": "aHR0cHM6Ly9ta29zdHJvdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkostrov.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pelhrimov",
+    "alias": "aHR0cHM6Ly9rbmloLXBlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkpel.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pisek",
+    "alias": "aHR0cHM6Ly9rbmloLXBpLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkpisek.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Pøerov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXByZXJvdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkpr.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Slavoj in Dvur Kralove nad Labem",
+    "alias": "aHR0cHM6Ly9zbGF2b2ouY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://dkralove.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Tábor",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRhYm9yLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkta.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Vratimov",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS12cmF0aW1vdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://vratimov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library and Infocentre in Dolni Bousov",
+    "alias": "aHR0cHM6Ly9kb2xuaS1ib3Vzb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://dbousov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library and Information centre of Hradec nad Moravicí",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhyYWRlYy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkhnm.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Beroun",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWJlcm91bi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://beroun.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Boskovice",
+    "alias": "aHR0cHM6Ly9rdWx0dXJhYm9za292aWNlLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkboskovice.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Cesky Krumlov",
+    "alias": "aHR0cHM6Ly9rbmloLWNrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkck.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Cheb, contributory organization",
+    "alias": "aHR0cHM6Ly9rcHdpbi5rbmloLWNoZWIuY3ovYXV0aC9zYW1sMi1pZHA",
+    "logo": "https://kpwin.knih-cheb.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Municipal Library in Havirov",
+    "alias": "aHR0cHM6Ly9rbmloLWhhdmlyb3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://havirov.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Hodonin",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhvZC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkhod.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Kladno",
+    "alias": "aHR0cHM6Ly9ta2tsLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkkl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Moravska Trebova",
+    "alias": "aHR0cHM6Ly9ta210LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkmt.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Roznov pod Radhostem",
+    "alias": "aHR0cHM6Ly9rbmlyLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://knir.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Svitavy",
+    "alias": "aHR0cHM6Ly9ib29rc3kuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mksvit.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library in Tøebíè",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXRyLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mktrebic.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkhk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library of Prague",
+    "alias": "aHR0cHM6Ly9ncnlmLm1scC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://web2.mlp.cz/logo/200.png"
+  },
+  {
+    "en-name": "Municipal Library Ústí nad Orlicí",
+    "alias": "aHR0cHM6Ly9pZHAua25paG92bmEtdW8uY3ovc2FtbDIvaWRwL21ldGFkYXRhLnBocA",
+    "logo": "https://uo.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Èeská Lípa",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1jbC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkcl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal Library Èeská Tøebová",
+    "alias": "aHR0cHM6Ly9pZHAubW9kZXJuaWtuaWhvdm5hLmN6L3NhbWwyL2lkcC9tZXRhZGF0YS5waHA",
+    "logo": "https://moderniknihovna.cz/images/logo/logo_mkct_small.png"
+  },
+  {
+    "en-name": "Municipal library Vysoke Myto",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS12bS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://vmyto.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library in Breclav",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWJyZWNsYXYuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://breclav.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library in Znojmo",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXpuLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://mkzn.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Municipal library with regional services in Trutnov",
+    "alias": "aHR0cHM6Ly9ta3RydXRub3YuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://mktrut.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "National Information and Consulting Centre for Culture",
+    "alias": "aHR0cHM6Ly9uaXBvcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://nipos.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "National Library of Technology",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnRlY2hsaWIuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.techlib.cz/public/images/logo-eduid.png"
+  },
+  {
+    "en-name": "National Medical Library, Prague - Medvik",
+    "alias": "aHR0cHM6Ly9zaGliLm1lZHZpay5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.medvik.cz/images/medvik-logo.png"
+  },
+  {
+    "en-name": "National Theatre Library Archive",
+    "alias": "aHR0cHM6Ly9hcmNoaXZuZGtuaWhvdm5hLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://archivnd.idp.rbit.cz/logo.png"
+  },
+  {
+    "en-name": "National museum",
+    "alias": "aHR0cHM6Ly9pZC5ubS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://id.nm.cz/nm_logo.png"
+  },
+  {
+    "en-name": "National technical museum",
+    "alias": "aHR0cHM6Ly9pZHAubnRtLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.ntm.cz/idp/images/idp.ntm.cz.jpg"
+  },
+  {
+    "en-name": "Nuclear Physics Institute of the ASCR",
+    "alias": "aHR0cHM6Ly9pZHAudWpmLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-ujf-44.png"
+  },
+  {
+    "en-name": "Palacky University Olomouc",
+    "alias": "aHR0cHM6Ly9pZHAudXBvbC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.upol.cz/idp/images/UP_logo_horizont_cz_200.png"
+  },
+  {
+    "en-name": "Pilsen City Library",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5wbHplbi5ldS9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkplzen.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Prague University of Economics and Business",
+    "alias": "aHR0cHM6Ly9pZC52c2UuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://id.vse.cz/idp/images/vse-logo-cz_40px.png"
+  },
+  {
+    "en-name": "Regional Library Karlovy Vary",
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWt2LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kkkv.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library Vysoèina",
+    "alias": "aHR0cHM6Ly9ra3Z5c29jaW55LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kkvy.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library Zlín",
+    "alias": "aHR0cHM6Ly9rZmJ6LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kfbz.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Regional Library in Pardubice",
+    "alias": "aHR0cHM6Ly9hbGVwaDIwLmtuaWhvdm5hLXBhcmR1YmljZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://aleph.knihovna-pardubice.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "Regional Research Library in Liberec",
+    "alias": "aHR0cHM6Ly9rdmtsaS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://kvkl.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "Research Library in Olomouc",
+    "alias": "aHR0cHM6Ly9zaGliby52a29sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://shibo.vkol.cz/logo_40.png"
+  },
+  {
+    "en-name": "Silesian University in Opava",
+    "alias": "aHR0cHM6Ly9pZHAtY3JvLnNsdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://uit.opf.slu.cz/_media/slu-znacka-hlavni-200.png"
+  },
+  {
+    "en-name": "Technical University of Liberec",
+    "alias": "aHR0cHM6Ly9zaGliYm8udHVsLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://liane.tul.cz/img/znak-tul.png"
+  },
+  {
+    "en-name": "The College of European and Regional Studies",
+    "alias": "aHR0cHM6Ly9lZHVpZC52c2Vycy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://eduid.vsers.cz/idp/images/vsers.png"
+  },
+  {
+    "en-name": "The Institute of Ethnology of the Czech Academy of Sciences, v. v. i.",
+    "alias": "aHR0cHM6Ly9pZHAuZXUuY2FzLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://gedeon.cas.cz/loga/logo-eu-44.png"
+  },
+  {
+    "en-name": "The Institute of Psychology of Academy of Science of Czech Republic",
+    "alias": "aHR0cHM6Ly9pZHAucHN1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-psu-44.png"
+  },
+  {
+    "en-name": "The Library of the City Olomouc",
+    "alias": "aHR0cHM6Ly9rbW9sLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://kmol.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "The National Heritage Institute",
+    "alias": "aHR0cHM6Ly9pZHAubnB1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.npu.cz/idp/images/NPU_logo.jpg"
+  },
+  {
+    "en-name": "The National Library of the Czech Republic",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLm5rcC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://www.en.nkp.cz/++resource++plonetheme.nkp.images/nkp_logo_en.png"
+  },
+  {
+    "en-name": "The National Pedagogical Museum and Library of J. A. Comenius",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLm5wbWsuY3ovYXV0aC9zYW1sMi1pZHA",
+    "logo": "https://katalog.npmk.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "The PRIGO University",
+    "alias": "aHR0cHM6Ly9lZHVpZC5wcmlnby5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://eduid.prigo.cz/idp/images/logo.png"
+  },
+  {
+    "en-name": "The Public Library Valašské Meziøíèí",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLm1la3ZhbG1lei5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "https://katalog.mekvalmez.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "The Research Library in Ceske Budejovice",
+    "alias": "aHR0cHM6Ly9jYnZrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://cbvk.knihovny.cz/logo.png"
+  },
+  {
+    "en-name": "The Research Library in Hradec Králové",
+    "alias": "aHR0cHM6Ly9hbGVwaC5zdmtoay5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://aleph.svkhk.cz/logo/logo_40.png"
+  },
+  {
+    "en-name": "Tomas Bata University in Zlín",
+    "alias": "aHR0cHM6Ly9zaGliYm9sZXRoLnV0Yi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://shibboleth.utb.cz/assets/img/logo_cs_160x17.png"
+  },
+  {
+    "en-name": "University of Chemistry and Technology, Prague",
+    "alias": "aHR0cHM6Ly93c3NvLnZzY2h0LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://wsso.vscht.cz/logo_vscht_40px.png"
+  },
+  {
+    "en-name": "University of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9pZHAudWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.uhk.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "University of Hradec Kralove",
+    "alias": "aHR0cHM6Ly9pZHAudWhrLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.uhk.cz/idp/images/logo_40.png"
+  },
+  {
+    "en-name": "University of Ostrava",
+    "alias": "aHR0cHM6Ly9pZHB0b28ub3N1LmN6L3NpbXBsZXNhbWwvc2FtbDIvaWRwL21ldGFkYXRhLnBocA",
+    "logo": "https://spock.osu.cz/idp/images/logo40.png"
+  },
+  {
+    "en-name": "University of Pardubice",
+    "alias": "aHR0cHM6Ly9pZHAudXBjZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.upce.cz/images/logo-40.png"
+  },
+  {
+    "en-name": "University of South Bohemia in Ceske Budejovice",
+    "alias": "aHR0cHM6Ly9oZWxpdW0uamN1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://helium.jcu.cz/logo-ju-40.png"
+  },
+  {
+    "en-name": "University of Veterinary Sciences Brno",
+    "alias": "aHR0cHM6Ly9pZHAudmZ1LmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://www.vetuni.cz/imgs/vetuni_logo_40x40.jpg"
+  },
+  {
+    "en-name": "University of West Bohemia",
+    "alias": "aHR0cHM6Ly9zaGliLnpjdS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://shib.zcu.cz/idp/images/zcu_logo_40px.png"
+  },
+  {
+    "en-name": "University of defence",
+    "alias": "aHR0cHM6Ly9pZHAudW5vYi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://idp.unob.cz/idp/images/znak_uo_wayf.png"
+  },
+  {
+    "en-name": "VSB - TU Ostrava",
+    "alias": "aHR0cHM6Ly9pZHAudnNiLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://idp.vsb.cz/idp/images/vsb-logo-40.svg"
+  },
+  {
+    "en-name": "Vaclav Ctvrtek Library",
+    "alias": "aHR0cHM6Ly9rYXRhbG9nLmtuaWhvdm5hLmppY2luLmN6L2F1dGgvc2FtbDItaWRw",
+    "logo": "https://katalog.knihovna.jicin.cz/auth/saml2-idp/organization-logo"
+  },
+  {
+    "en-name": "Ústí Regional Library",
+    "alias": "aHR0cHM6Ly9zdmt1bC5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://svkul.knihovny.cz/logo.png"
+  }
+    
 ]
+    
