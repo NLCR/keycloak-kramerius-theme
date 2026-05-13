@@ -315,9 +315,11 @@ public class ThemeResourceProvider implements RealmResourceProvider {
         JsonNode rootNode = objectMapper.readTree(reader);
         byte[] data = null;
 
-        // 1. Pokus o přímý match (KC18 SHA256 aliasy)
+        // 1. Přímý match na alias NEBO kc22alias
         for (JsonNode node : rootNode) {
-            if (node.get("alias").asText().equals(alias)) {
+            String storedAlias = node.get("alias").asText();
+            String storedKc22 = node.has("kc22alias") ? node.get("kc22alias").asText() : "";
+            if (storedAlias.equals(alias) || storedKc22.equals(alias)) {
                 data = objectMapper.writeValueAsBytes(node);
                 break;
             }

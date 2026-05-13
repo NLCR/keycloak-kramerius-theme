@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <!-- Collapsible interní login -->
     <div class="kramerius-login-section">
         <button type="button" id="login-internal-toggle" class="kramerius-section-toggle" aria-expanded="false">
-            <span class="toggle-icon">&#9654;</span>
+            <span class="toggle-arrow">&#9654;</span>
             ${msg("loginInternally")}
         </button>
         <form id="kc-form-login" action="${url.loginAction}" method="post" style="display:none;">
@@ -243,14 +243,16 @@ document.addEventListener("DOMContentLoaded", function () {
     <!-- Nadpis + search + list IdP -->
     <div class="kramerius-login-section">
         <div class="kramerius-institution-header">
-            <span class="toggle-icon open">&#9660;</span>
+            <span class="header-dot"></span>
             ${msg("loginWithInstitution")}
         </div>
 
         <div class="kramerius-search-wrap">
-            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-            </svg>
+            <span class="search-icon-wrap">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2.5" xmlns="http://www.w3.org/2000/svg" style="display:block;width:16px;height:16px;flex-shrink:0;">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </span>
             <input id="kc-providers-filter" type="search" class="kramerius-search-input"
                    placeholder="${msg('searchPlaceholder')}" autocomplete="off" />
         </div>
