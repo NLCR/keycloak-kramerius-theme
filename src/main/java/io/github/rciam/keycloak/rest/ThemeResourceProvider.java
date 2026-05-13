@@ -48,26 +48,30 @@ import org.keycloak.sessions.AuthenticationSessionModel;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import javax.validation.constraints.Null;
-import javax.ws.rs.BadRequestException;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.DefaultValue;
-import javax.ws.rs.GET;
-import javax.ws.rs.NotAuthorizedException;
-import javax.ws.rs.NotFoundException;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.HttpHeaders;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.MultivaluedMap;
-import javax.ws.rs.core.Response;
+import jakarta.validation.constraints.Null;
+import jakarta.ws.rs.BadRequestException;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.DefaultValue;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.NotAuthorizedException;
+import jakarta.ws.rs.NotFoundException;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.QueryParam;
+import jakarta.ws.rs.core.Context;
+import jakarta.ws.rs.core.HttpHeaders;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MultivaluedMap;
+import jakarta.ws.rs.core.Response;
 import java.io.*;
 import java.net.URI;
 import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Base64;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
@@ -310,19 +314,47 @@ public class ThemeResourceProvider implements RealmResourceProvider {
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode rootNode = objectMapper.readTree(reader);
         byte[] data = null;
-        for(JsonNode node : rootNode) {
-            if(node.get("alias").asText().equals(alias)) {
+
+        // 1. Pokus o přímý match (KC18 SHA256 aliasy)
+        for (JsonNode node : rootNode) {
+            if (node.get("alias").asText().equals(alias)) {
                 data = objectMapper.writeValueAsBytes(node);
+                break;
             }
         }
 
-        if(data == null)
+        // 2. KC22 kompatibilita: alias je base64(entityId) -> dekóduj -> SHA256 -> lookup
+        if (data == null) {
+            try {
+                String paddedAlias = alias;
+                switch (alias.length() % 4) {
+                    case 2: paddedAlias = alias + "=="; break;
+                    case 3: paddedAlias = alias + "=";  break;
+                }
+                byte[] decoded = Base64.getDecoder().decode(paddedAlias);
+                String entityId = new String(decoded, StandardCharsets.UTF_8);
+                MessageDigest digest = MessageDigest.getInstance("SHA-256");
+                byte[] hashBytes = digest.digest(entityId.getBytes(StandardCharsets.UTF_8));
+                StringBuilder sb = new StringBuilder();
+                for (byte b : hashBytes) sb.append(String.format("%02x", b));
+                String sha256alias = sb.toString();
+
+                for (JsonNode node : rootNode) {
+                    if (node.get("alias").asText().equals(sha256alias)) {
+                        data = objectMapper.writeValueAsBytes(node);
+                        break;
+                    }
+                }
+            } catch (Exception e) {
+                // alias není base64 nebo SHA256 lookup selhal, pokračuj s 404
+            }
+        }
+
+        if (data == null)
             return Response.status(404).entity("Could not find the Identity provider with alias " + alias).build();
 
         return Response.ok()
-//                .header("Content-Type", MediaType.IMAGE_JPEG_VALUE)
-                .header("Content-Disposition","attachment; filename=logo.json")
-//                .header("Content-Length", data.length)
+                .header("Content-Disposition", "attachment; filename=logo.json")
                 .entity(data)
                 .build();
     }

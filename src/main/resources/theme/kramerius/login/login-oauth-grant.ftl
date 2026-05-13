@@ -70,7 +70,6 @@
 
 
             <form class="form-actions" action="${url.oauthAction}" method="POST">
-                <input type="hidden" name="code" value="${oauth.code}">
                 <div class="${properties.kcFormGroupClass!}">
                     <div id="kc-form-options">
                         <div class="${properties.kcFormOptionsWrapperClass!}">

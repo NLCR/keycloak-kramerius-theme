@@ -125,3 +125,257 @@ input[type=text] {
 #kc-page-title>img {
     max-height: 90px;
 }
+
+/* Zvětšení a rozšíření vyhledávacího pole */
+.pf-c-form-control[type="search"],
+input[type="search"],
+.pf-c-search-input__text-input {
+    width: 100% !important; /* Roztáhne pole na celou šířku kontejneru */
+    max-width: 600px !important; /* Nebo nastavte pevnou maximální šířku */
+    height: 48px !important; /* Zvětší výšku pole */
+    font-size: 16px !important; /* Zvětší písmo */
+    padding: 10px 16px !important; /* Větší vnitřní odsazení */
+    border-radius: 8px !important; /* Zaoblené rohy */
+    border: 2px solid #0066cc !important; /* Výraznější ohraničení */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Plynulé přechody */
+}
+
+.pf-c-form-control[type="search"]:focus,
+input[type="search"]:focus {
+    border-color: #004080 !important;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2) !important;
+    outline: none;
+}
+
+/* === KC22 fixes === */
+
+/* IdP seznam - vertikální zobrazení */
+#kc-providers-list {
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+#kc-providers-list a,
+.pf-c-login__main-footer-band-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    padding: 8px 12px !important;
+    margin-bottom: 4px !important;
+    border: 1px solid #d2d2d2 !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+    text-decoration: none !important;
+    color: #151515 !important;
+    box-sizing: border-box !important;
+}
+
+#kc-providers-list a:hover,
+.pf-c-login__main-footer-band-item:hover {
+    background: #f5f5f5 !important;
+    border-color: #0066cc !important;
+}
+
+/* Promoted IdP sekce */
+#kc-social-promoted-providers ul {
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Skrytí spinneru */
+#spinner {
+    display: none !important;
+}
+
+/* ===== KRAMERIUS MODERNÍ DESIGN ===== */
+
+/* Sekce (toggle blok) */
+.kramerius-login-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* Toggle tlačítko pro interní login */
+.kramerius-section-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background: #fafafa;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s;
+}
+
+.kramerius-section-toggle:hover {
+    background: #f0f4ff;
+    color: #0066cc;
+}
+
+.kramerius-section-toggle .toggle-icon {
+    font-size: 11px;
+    color: #666;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.kramerius-section-toggle.open .toggle-icon {
+    transform: rotate(90deg);
+}
+
+/* Interní login formulář uvnitř sekce */
+.kramerius-form-inner {
+    padding: 20px 18px 8px;
+}
+
+/* Nadpis "Přihlásit se institucí" */
+.kramerius-institution-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.kramerius-institution-header .toggle-icon {
+    font-size: 11px;
+    color: #666;
+}
+
+/* Search wrapper */
+.kramerius-search-wrap {
+    position: relative;
+    padding: 12px 14px 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.search-icon {
+    position: absolute;
+    left: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    color: #888;
+    pointer-events: none;
+}
+
+.kramerius-search-input {
+    width: 100%;
+    padding: 10px 14px 10px 42px;
+    border: 1.5px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.kramerius-search-input:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.12);
+}
+
+.kramerius-search-input::placeholder {
+    color: #aaa;
+}
+
+/* IdP seznam */
+.kramerius-idp-list {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 6px 0 !important;
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+/* IdP tlačítko */
+.kramerius-idp-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 16px !important;
+    margin: 2px 8px !important;
+    border-radius: 6px !important;
+    border: 1px solid transparent !important;
+    text-decoration: none !important;
+    color: #222 !important;
+    font-size: 14px !important;
+    transition: background 0.12s, border-color 0.12s !important;
+    cursor: pointer;
+}
+
+.kramerius-idp-btn:hover {
+    background: #f0f6ff !important;
+    border-color: #b3cef0 !important;
+    color: #0055bb !important;
+}
+
+.kramerius-idp-btn .idp-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.kramerius-idp-btn .idp-logo {
+    max-height: 40px;
+    max-width: 80px;
+    margin-left: 12px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+/* Promoted IdP sekce */
+#kc-social-promoted-providers .kramerius-idp-list {
+    max-height: none;
+    padding: 8px !important;
+}
+
+#kc-social-promoted-providers .kramerius-idp-btn {
+    background: #f8f9ff !important;
+    border-color: #d0ddf5 !important;
+    font-weight: 500;
+}
+
+/* Scrollbar styling */
+.kramerius-idp-list::-webkit-scrollbar { width: 6px; }
+.kramerius-idp-list::-webkit-scrollbar-track { background: #f5f5f5; }
+.kramerius-idp-list::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+.kramerius-idp-list::-webkit-scrollbar-thumb:hover { background: #999; }
+
+/* Override starých stylů */
+#kc-providers-list {
+    max-height: 360px !important;
+    overflow-y: auto !important;
+    display: block !important;
+    padding: 6px 0 !important;
+}
+
+#spinner { display: none !important; }
