@@ -46,20 +46,29 @@ document.addEventListener("DOMContentLoaded", function () {
         try { localStorage.setItem("savedIdps", alias); } catch(e) {}
     }
 
-    function createIdpButton(idp) {
+    function createIdpButton(idp, extraClass) {
         const a = document.createElement("a");
         a.href = idp.loginUrl;
-        a.className = "kramerius-idp-btn";
+        a.className = "km-idp-item" + (extraClass ? " " + extraClass : "");
         a.id = "social-" + idp.alias;
         a.addEventListener("click", () => saveIdp(idp.alias));
 
         const name = idp.en_name || idp.displayName;
+        const nameSpan = document.createElement("span");
+        nameSpan.className = "km-idp-name";
+        nameSpan.textContent = name;
+        a.appendChild(nameSpan);
 
         if (idp.logo) {
-            a.innerHTML = '<span class="idp-name">' + name + '</span>'
-                        + '<img class="idp-logo" src="' + idp.logo + '" alt="' + name + '">';
-        } else {
-            a.innerHTML = '<span class="idp-name">' + name + '</span>';
+            const wrap = document.createElement("span");
+            wrap.className = "km-idp-logo-wrap";
+            const img = document.createElement("img");
+            img.src = idp.logo;
+            img.alt = "";
+            img.className = "km-idp-logo";
+            img.onerror = function() { wrap.style.display = "none"; };
+            wrap.appendChild(img);
+            a.appendChild(wrap);
         }
         return a;
     }
@@ -114,6 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         renderIdps();
+        if (state.first === 0) renderLastUsed(state.idps);
     }
 
     async function loadPromoted() {
@@ -159,15 +169,47 @@ document.addEventListener("DOMContentLoaded", function () {
         loadIdps();
     }
 
-    // collapsible interní login
-    const loginToggle = document.getElementById("login-internal-toggle");
+    // Zobraz poslední použitou instituci
+    function renderLastUsed(allIdps) {
+        const lastAlias = (() => { try { return localStorage.getItem("savedIdps"); } catch(e) { return null; } })();
+        if (!lastAlias) return;
+        const idp = allIdps.find(i => i.alias === lastAlias);
+        if (!idp) return;
+
+        const container = document.querySelector(".km-last-used");
+        if (!container) return;
+        container.innerHTML = "";
+
+        const a = createIdpButton(idp, "km-last-used-item");
+        a.id = "social-last-" + idp.alias;
+
+        const badge = document.createElement("span");
+        badge.className = "km-last-used-badge";
+        badge.textContent = "Naposledy";
+        a.insertBefore(badge, a.firstChild);
+        container.appendChild(a);
+    }
+
+    // Clear button na search
+    const clearBtn = document.getElementById("kc-search-clear");
+    if (clearBtn && searchInput) {
+        searchInput.addEventListener("input", function() {
+            clearBtn.classList.toggle("visible", searchInput.value.length > 0);
+        });
+        clearBtn.addEventListener("click", function() {
+            searchInput.value = "";
+            clearBtn.classList.remove("visible");
+            resetSearch("");
+            searchInput.focus();
+        });
+    }
     const loginForm = document.getElementById("kc-form-login");
     if (loginToggle && loginForm) {
         loginToggle.addEventListener("click", function() {
             const expanded = loginForm.style.display !== "none";
             loginForm.style.display = expanded ? "none" : "block";
-            loginToggle.classList.toggle("open", !expanded);
-            loginToggle.setAttribute("aria-expanded", !expanded);
+            loginToggle.classList.toggle("km-open", !expanded);
+            loginToggle.setAttribute("aria-expanded", String(!expanded));
         });
     }
 
@@ -204,14 +246,13 @@ document.addEventListener("DOMContentLoaded", function () {
 <div id="kc-form">
 
     <#if realm.password>
-    <!-- Collapsible interní login -->
-    <div class="kramerius-login-section">
-        <button type="button" id="login-internal-toggle" class="kramerius-section-toggle" aria-expanded="false">
-            <span class="toggle-arrow">&#9654;</span>
-            ${msg("loginInternally")}
+    <div class="km-section">
+        <button type="button" id="login-internal-toggle" class="km-toggle" aria-expanded="false">
+            <span>${msg("loginInternally")}</span>
+            <span class="km-toggle-arrow">&#9654;</span>
         </button>
         <form id="kc-form-login" action="${url.loginAction}" method="post" style="display:none;">
-            <div class="kramerius-form-inner">
+            <div class="km-form-body">
                 <div class="${properties.kcFormGroupClass!}">
                     <label for="username" class="${properties.kcLabelClass!}">
                         <#if !realm.loginWithEmailAllowed>${msg("username")}<#elseif !realm.registrationEmailAsUsername>${msg("usernameOrEmail")}<#else>${msg("email")}</#if>
@@ -235,29 +276,27 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     </#if>
 
-    <!-- promoted IDPs -->
     <div id="kc-social-promoted-providers" style="display:none;">
-        <ul class="kramerius-idp-list"></ul>
+        <div class="km-section"><ul class="km-idp-list"></ul></div>
     </div>
 
-    <!-- Nadpis + search + list IdP -->
-    <div class="kramerius-login-section">
-        <div class="kramerius-institution-header">
-            <span class="header-dot"></span>
+    <div class="km-section">
+        <div class="km-inst-header">
+            <span class="km-inst-dot"></span>
             ${msg("loginWithInstitution")}
         </div>
-
-        <div class="kramerius-search-wrap">
-            <span class="search-icon-wrap">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2.5" xmlns="http://www.w3.org/2000/svg" style="display:block;width:16px;height:16px;flex-shrink:0;">
+        <div class="km-search-wrap">
+            <span class="km-search-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:block;width:16px;height:16px;">
                     <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
                 </svg>
             </span>
-            <input id="kc-providers-filter" type="search" class="kramerius-search-input"
+            <input id="kc-providers-filter" type="search" class="km-search-input"
                    placeholder="${msg('searchPlaceholder')}" autocomplete="off" />
+            <button type="button" id="kc-search-clear" class="km-search-clear" aria-label="Vymazat">&#x2715;</button>
         </div>
-
-        <ul id="kc-providers-list" class="kramerius-idp-list login-pf-list-scrollable"></ul>
+        <div class="km-last-used"></div>
+        <ul id="kc-providers-list" class="km-idp-list"></ul>
     </div>
 
 </div>
