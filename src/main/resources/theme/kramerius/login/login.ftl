@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var img = document.createElement("img");
             img.src = idp.logo;
             img.alt = "";
-            img.className = "km-logo";
+            img.className = "km-logo" + (idp.logoClass ? " km-logo-" + idp.logoClass : "");
             img.onerror = function() { wrap.style.display = "none"; };
             wrap.appendChild(img);
             a.appendChild(wrap);
@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!res.ok) return;
             var data = await res.json();
             idp.logo = data.logo || null;
+            idp.logoClass = data["logo-class"] || null;
             var lang = (new URLSearchParams(window.location.search)).get("kc_locale") || navigator.language.split("-")[0];
             idp.en_name = (lang === "en" && data["en-name"]) ? data["en-name"] : null;
         } catch(e) {}
@@ -259,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div id="km-last-used"></div>
         <ul id="kc-providers-list" class="km-list login-pf-list-scrollable"></ul>
     </div>
-    <br>
+
 </div>
 </#if>
 </@layout.registrationLayout>

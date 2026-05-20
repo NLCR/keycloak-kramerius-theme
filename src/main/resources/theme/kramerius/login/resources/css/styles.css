@@ -198,7 +198,9 @@ header.pf-c-login__main-header { position: relative; }
 }
 
 .card-pf {
-  background: rgba(255,255,255,.8)
+  background: rgba(255,255,255,.8);
+  border-radius: 10px;
+  max-width: 700px!important;
 }
 
 #kc-page-title {
@@ -207,5 +209,14 @@ header.pf-c-login__main-header { position: relative; }
 }
 
 #kc-content-wrapper {
-  padding:20px
+  padding:20px;
+}
+
+.km-logo-invert { filter: invert(1); }
+.km-logo-invert-dark { filter: invert(1) brightness(0.3); }
+
+@media (max-width: 767px) {
+  .login-pf body {
+    background: linear-gradient(to right, #323232, #060606)!important;
+  }
 }

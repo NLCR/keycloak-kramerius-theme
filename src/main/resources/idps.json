@@ -56,7 +56,7 @@
   },
   {
     "alias": "8ae8c420b67d7c5b1b1e141d997d69533879fae340cf6f9c48aacedc57bd0e00",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/jamu/logo",
+    "logo": "https://www.jamu.cz/wp-content/themes/dootheme/dist/svg/logo/jamu.svg",
     "en-name": "Janacek Academy of Music and Performing Arts in Brno"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "alias": "002db8b2ff770cc62f5e404d7ea82696ce02bfd124a1bd5bd9700ab4421b2f2f",
-    "logo": "https://www.avu.cz/sites/default/files/editor/avu_logo_1_stranka_6.jpg",
+    "logo": "https://www.designportal.cz/wp-content/uploads/2019/01/avu-logo-20yy_designers-00-1140x641.jpg",
     "en-name": "AVU"
   },
   {
@@ -106,7 +106,8 @@
   },
   {
     "alias": "a1723075437964295868e34937a38936939582b5f571eaf109c12d0316d9f114",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/slu/logo",
+    "logo": "https://www.slu.cz/img/websu/logo_web_su_en.png",
+    "logo-class": "invert-dark"
     "en-name": "Silesian University in Opava"
   },
   {
@@ -151,7 +152,7 @@
   },
   {
     "alias": "b3573b4ea83a8a440c074aec8faf8ea49790b8ccd3d59597eb23b047817dc93b",
-    "logo": "https://idpmain.icpf.cas.cz/loga/logo-gli-44.png",
+    "logo": "https://ds.eduid.cz/logo/idp.gli.cas.cz_idp_shibboleth.png",
     "en-name": "Institute of Geology AS CR"
   },
   {
@@ -451,7 +452,7 @@
   },
   {
     "alias": "0ac5790da644b02002f71f90a66953f8860b42122c4507bbe6b6907173377337",
-    "logo": "https://mkcl.knihovny.cz/logo.png",
+    "logo": "https://knihovnacl.cz/wp-content/uploads/2023/06/CL-Knihovna_logo.png",
     "en-name": "Municipal Library Česká Lípa"
   },
   {
@@ -728,5 +729,50 @@
     "alias": "c2202fe000b1cdb32e0730d43ac0040508a52920e16091032171726145e72aff",
     "logo": "https://ndk.cz/img/idndk_35x160.png",
     "en-name": "Identities NDK"
+  },
+  {
+    "alias": "aHR0cHM6Ly9pZHAuYW1iaXMuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.ambis.cz/files/ambis-symbol-clr.png",
+    "en-name": "AMBIS University"
+  },
+  {
+    "alias": "aHR0cHM6Ly9hZ2ttLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "https://agkm.idp.rbit.cz/logo.png",
+    "en-name": "Archiepiscopal Gymnasium in Kromeriz - Library"
+  },
+  {
+    "alias": "aHR0cHM6Ly9pZHAuZnp1LmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://gedeon.cas.cz/loga/logo-fzu-100.png",
+    "en-name": "Institute of Physics AS CR"
+  },
+  {
+    "alias": "aHR0cHM6Ly9zb2FpZHAuc29hcGx6ZW4uY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://www.soaplzen.cz/sites/default/files/easybreeze_logo.png",
+    "en-name":"State Regional Archives in Pilsen"
+  },
+  {
+    "alias": "aHR0cHM6Ly9pZHAubXV6ZXVtcHJhaHkuY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "https://idp.muzeumprahy.cz/idp/images/idp.muzeumprahy.cz.png",
+    "en-name": "The City of Prague Museum"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYW1pbGluLmN6L2lkcC9zaGliYm9sZXRo",
+    "logo": "",
+    "en-name": "Library of Dr. Emanuel Bořický"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmloa20uY3ovaWRwL3NoaWJib2xldGg",
+    "logo": "",
+    "en-name": "Kroměříž Public Library"
+  },
+  {
+    "alias": "aHR0cHM6Ly93d3cua25paHpkYXIuY3ovYXV0aC9zYW1sMi1pZHA",
+    "logo": "",
+    "en-name": "Matěj Josef Sychra Library"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYXNway5jei9hdXRoL3NhbWwyLWlkcA",
+    "logo": "",
+    "en-name": "Municipal library T.G. Masaryk Sumperk"
   }
 ]
