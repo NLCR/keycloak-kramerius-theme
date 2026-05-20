@@ -72,7 +72,9 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
+import java.text.Collator;
 import java.text.Normalizer;
+import java.util.Locale;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -230,8 +232,13 @@ public class ThemeResourceProvider implements RealmResourceProvider {
         RealmModel realm = session.getContext().getRealm();
 
         final String lowercaseKeyword = toLowerCaseWithoutAccents(keyword);
+        final Collator collator = Collator.getInstance(new Locale("cs", "CZ"));
+        collator.setStrength(Collator.PRIMARY);
         List<IdentityProviderModel> identityProviders = realm.getIdentityProvidersStream()
                 .filter(idp -> toLowerCaseWithoutAccents(idp.getDisplayName()).contains(lowercaseKeyword) || idp.getAlias().toLowerCase().contains(lowercaseKeyword))
+                .sorted((a, b) -> collator.compare(
+                        a.getDisplayName() != null ? a.getDisplayName() : "",
+                        b.getDisplayName() != null ? b.getDisplayName() : ""))
                 .skip(firstResult)
                 .limit(maxResults)
                 .collect(Collectors.toList());

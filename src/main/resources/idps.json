@@ -51,7 +51,7 @@
   },
   {
     "alias": "f366d6186aab0e27cf5fec0b72ca96685c22a35e0897d215a483aa12b7179c42",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/irsm/logo",
+    "logo": "https://www.irsm.cas.cz/themes/custom/usmh/images/logos/brand-logo--header.png",
     "en-name": "Institute of Rock Structure and Mechanics of The Czech Academy of Sciences"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "alias": "aac72f222c898c0a62a8ab8a19a00cc7fa08d8ef4691662edb9915adef5774ab",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/vstecb/logo",
+    "logo": "https://www.vstecb.cz/wp-content/uploads/2018/01/logo-vste_uprava.png",
     "en-name": "Institute of Technology and Business in České Budějovice"
   },
   {
@@ -107,7 +107,7 @@
   {
     "alias": "a1723075437964295868e34937a38936939582b5f571eaf109c12d0316d9f114",
     "logo": "https://www.slu.cz/img/websu/logo_web_su_en.png",
-    "logo-class": "invert-dark"
+    "logo-class": "invert-dark",
     "en-name": "Silesian University in Opava"
   },
   {
@@ -177,7 +177,7 @@
   },
   {
     "alias": "2c55292b960bb9072a886392775009276c8736de32af4ef48aa10fbda5b19026",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/icpf/logo",
+    "logo": "https://idp.icpf.cas.cz/loga/logo-icpf-44.png",
     "en-name": "Institute of Chemical Process Fundamentals of the AS CR"
   },
   {
@@ -237,7 +237,7 @@
   },
   {
     "alias": "351a559068260403f367a8c8dac9f61309a949af3c29eb7a37d63b3abc52934f",
-    "logo": "https://idp.ntm.cz/idp/images/idp.ntm.cz.jpg",
+    "logo": "https://idp.ntm.cz/idp/images/idp.ntm.cz.png",
     "en-name": "National technical museum"
   },
   {
@@ -252,7 +252,7 @@
   },
   {
     "alias": "7add8971bd87081eec38cd5de32bb24f3ec79494a227c8a2b377be28e97157c7",
-    "logo": "https://idp.savs.cz/idp/images/idp.savs.cz.jpg",
+    "logo": "https://idp.savs.cz/idp/images/idp.savs.cz.png",
     "en-name": "ŠKODA AUTO University"
   },
   {
@@ -277,7 +277,7 @@
   },
   {
     "alias": "19aa7efbadc416512c5bf8b375097ac5669132fccc8db697d6e1c91781c8d5c4",
-    "logo": "https://api.registr.digitalniknihovna.cz/libraries/ueb/logo",
+    "logo": "https://idp.icpf.cas.cz/loga/logo-ueb-44.png",
     "en-name": "Institute of Experimental Botany AS CR"
   },
   {
@@ -757,12 +757,12 @@
   },
   {
     "alias": "aHR0cHM6Ly9rbmlob3ZuYW1pbGluLmN6L2lkcC9zaGliYm9sZXRo",
-    "logo": "",
+    "logo": "https://milin.idp.rbit.cz/logo.png",
     "en-name": "Library of Dr. Emanuel Bořický"
   },
   {
     "alias": "aHR0cHM6Ly9rbmloa20uY3ovaWRwL3NoaWJib2xldGg",
-    "logo": "",
+    "logo": "https://knihkm.knihovny.cz/logo.png",
     "en-name": "Kroměříž Public Library"
   },
   {
@@ -774,5 +774,109 @@
     "alias": "aHR0cHM6Ly9rbmlob3ZuYXNway5jei9hdXRoL3NhbWwyLWlkcA",
     "logo": "",
     "en-name": "Municipal library T.G. Masaryk Sumperk"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYWJiYi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://kbbb.knihovny.cz/logo.png",
+    "en-name": "The Bedřich Beneš Buchlovan Library in Uherské Hradiště"
+  },
+  {
+    "alias": "aHR0cHM6Ly9ta2piYy5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://jablonec.idp.rbit.cz/logo.png",
+    "en-name": "The Municipal Library in Jablonec nad Nisou"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS1reWpvdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://kyjov.idp.rbit.cz/logo.png",
+    "en-name": "The Municipal Library in Kyjov"
+  },
+  {
+    "alias": "aHR0cHM6Ly9rbmlob3ZuYS5saWJvY2hvdmljZS5jei9pZHAvc2hpYmJvbGV0aA",
+    "logo": "https://mkliboch.knihovny.cz/logo.png",
+    "en-name": "The Municipal Library in Libochovice"
+  },
+  {
+    "alias": "8c704d6eb5b8115b2c24df211c43d68e9f5f20586d2897ad43436d138f3c7892",
+    "kc22alias": "aHR0cHM6Ly9pZHAudWNsLmNhcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Institute of Czech Literature of the CAS",
+    "logo": "https://idp.ucl.cas.cz/idp/images/idp.ucl.cas.cz.png"
+  },
+  {
+    "alias": "21fb435caecc86fa43e393cbdca9ea803be76b04a986b73a1ae5055a3395ff0c",
+    "kc22alias": "aHR0cHM6Ly9pZHAudnNmcy5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "University of Finance and Administration",
+    "logo": "https://idp.vsfs.cz/idp/images/idp.vsfs.cz.png"
+  },
+  {
+    "alias": "e90ca60c133083679f05c523e346902a6b83ee34c7c626113dbdd5b115e6b908",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYS1saXRvbXlzbC5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Municipal Library Litomyšl",
+    "logo": "https://litomysl.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "87d00183ad2ef3a85fa5871261676fa941d97a13a36799cde1042a363fac3a94",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYS1saXR2aW5vdi5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Municipal Library in Litvinov",
+    "logo": "https://litvinov.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "6b79e4743517f88105fbd0b566a3fabaab177eb674a632f99000238578ac68c3",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYWJydG5pY2UuY3ovaWRwL3NoaWJib2xldGg",
+    "en-name": "Municipal Library Brtnice",
+    "logo": "https://mkbrtnice.knihovny.cz/logo.png"
+  },
+  {
+    "alias": "fd41e69e1f71e4d5203778e08042f88d762fae522cf6ffcb4c198451a6cd8cf5",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYW1vc3QuY3ovaWRwL3NoaWJib2xldGg",
+    "en-name": "Municipal Library in Most",
+    "logo": "https://mkmost.knihovny.cz/logo.png"
+  },
+  {
+    "alias": "25143eaaed1bb7d9473d0e023998b0f9a09ba74917479f8ead7156b2bf5ec1ac",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYW5wYWthLmN6L2lkcC9zaGliYm9sZXRo",
+    "en-name": "Municipal Library Nová Paka",
+    "logo": "https://novapaka.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "d021be3266ae46bc8f88ef45e845536f7655192436768691c59e2d493666f2f4",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYXB2LmN6L2lkcC9zaGliYm9sZXRo",
+    "en-name": "Municipal Library Prostějov",
+    "logo": "https://prostejov.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "22863abe4bc59d2797232b008dbf86ba2629b3f14bf38fa259429c5b7f23207f",
+    "kc22alias": "aHR0cHM6Ly9rbmlob3ZuYXRudi5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Municipal Library in Týn nad Vltavou",
+    "logo": "https://mktnv.knihovny.cz/logo.png"
+  },
+  {
+    "alias": "aa54802bd62b1f9ead6031600a05008cbcd48b2676b2ac78ade4f72c02fee67c",
+    "kc22alias": "aHR0cHM6Ly9ta3ZkZi5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Municipal Library in Varnsdorf",
+    "logo": "https://varnsdorf.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "d40b3f21194f02c9f03768ade9f21629d14b6d62fd71f177955e0ad44f39f458",
+    "kc22alias": "aHR0cHM6Ly9yb2t5a25paC5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "Municipal Library Rokycany",
+    "logo": "https://rokycany.idp.rbit.cz/logo.png"
+  },
+  {
+    "alias": "f31413a01f621a451dd3499fc739e8ec8b3391136975bc9b6b576306d2b91ed6",
+    "kc22alias": "aHR0cHM6Ly9zaGliLnBzcC5jei9zaW1wbGVzYW1s",
+    "en-name": "Parliamentary Library of the Czech Republic",
+    "logo": "https://shib.psp.cz/logo-parlamentni-knihovna.png"
+  },
+  {
+    "alias": "160783701f502d92fb30b6f9ff25c6a8b092bc032ac6b62a2a77c54616d34811",
+    "kc22alias": "aHR0cHM6Ly9zaGliYm9sZXRoaWRwLm56bS5jei9pZHAvc2hpYmJvbGV0aA",
+    "en-name": "National Museum of Agriculture",
+    "logo": "https://www.nzm.cz/img/logo-nzm.svg"
+  },
+  {
+    "alias": "7e024148a77f7c2b586dc753e84d3be625b91d65e9e43629371ec97a33a8e715",
+    "kc22alias": "aHR0cHM6Ly93d3cubXZrLmN6L2F1dGgvc2FtbDItaWRw",
+    "en-name": "Masaryk Public Library Vsetín",
+    "logo": "https://katalog.mvk.cz/auth/saml2-idp/organization-logo"
   }
 ]

@@ -3,16 +3,13 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-    var generation = 0;
-    var state = { idps: [], first: 0, max: 20, keyword: "", loading: false, reachedEnd: false };
-
+    var state = { idps: [] };
     var listEl      = document.getElementById("kc-providers-list");
     var searchInput = document.getElementById("kc-providers-filter");
     var clearBtn    = document.getElementById("kc-search-clear");
     var loginToggle = document.getElementById("login-internal-toggle");
     var loginForm   = document.getElementById("kc-form-login");
 
-    /* ---- helpers ---- */
     function buildLoginUrl(idp) {
         return new URL(baseUri).origin + idpLoginFullUrl.replace("/_/", "/" + idp.alias + "/");
     }
@@ -20,34 +17,22 @@ document.addEventListener("DOMContentLoaded", function () {
         return new URL(new URL(baseUri).origin + idpLoginFullUrl).searchParams.get(k);
     }
     function saveIdp(idp) {
-        try {
-            localStorage.setItem("lastIdp", JSON.stringify({
-                alias: idp.alias,
-                displayName: idp.en_name || idp.displayName,
-                logo: idp.logo || null,
-                loginUrl: idp.loginUrl
-            }));
-        } catch(e) {}
+        try { localStorage.setItem("lastIdp", JSON.stringify({ alias: idp.alias, displayName: idp.en_name || idp.displayName, logo: idp.logo || null })); } catch(e) {}
     }
     function getLastIdp() {
         try { return JSON.parse(localStorage.getItem("lastIdp")); } catch(e) { return null; }
     }
 
-    /* ---- create button ---- */
     function createIdpButton(idp, extraClass) {
         var a = document.createElement("a");
         a.href = idp.loginUrl;
         a.className = "km-idp-item" + (extraClass ? " " + extraClass : "");
         a.id = "social-" + idp.alias;
         a.addEventListener("click", function() { saveIdp(idp); });
-
-        var name = idp.en_name || idp.displayName;
-
         var nameSpan = document.createElement("span");
         nameSpan.className = "km-idp-name";
-        nameSpan.textContent = name;
+        nameSpan.textContent = idp.en_name || idp.displayName;
         a.appendChild(nameSpan);
-
         if (idp.logo) {
             var wrap = document.createElement("span");
             wrap.className = "km-logo-wrap";
@@ -62,7 +47,26 @@ document.addEventListener("DOMContentLoaded", function () {
         return a;
     }
 
-    /* ---- fetch logo ---- */
+    function updateIdpButton(idp) {
+        ["social-" + idp.alias, "social-last-" + idp.alias].forEach(function(id) {
+            var a = document.getElementById(id);
+            if (!a) return;
+            var ns = a.querySelector(".km-idp-name");
+            if (ns) ns.textContent = idp.en_name || idp.displayName;
+            if (idp.logo && !a.querySelector(".km-logo-wrap")) {
+                var wrap = document.createElement("span");
+                wrap.className = "km-logo-wrap";
+                var img = document.createElement("img");
+                img.src = idp.logo;
+                img.alt = "";
+                img.className = "km-logo" + (idp.logoClass ? " km-logo-" + idp.logoClass : "");
+                img.onerror = function() { wrap.style.display = "none"; };
+                wrap.appendChild(img);
+                a.appendChild(wrap);
+            }
+        });
+    }
+
     async function fetchLogo(idp) {
         try {
             var res = await fetch(baseUri.replace(/\/$/, "") + "/realms/" + realm + "/theme-info/identity-provider-logo/" + idp.alias);
@@ -72,77 +76,63 @@ document.addEventListener("DOMContentLoaded", function () {
             idp.logoClass = data["logo-class"] || null;
             var lang = (new URLSearchParams(window.location.search)).get("kc_locale") || navigator.language.split("-")[0];
             idp.en_name = (lang === "en" && data["en-name"]) ? data["en-name"] : null;
+            updateIdpButton(idp);
         } catch(e) {}
     }
 
-    /* ---- load idps ---- */
-    async function loadIdps() {
-        if (state.loading || state.reachedEnd) return;
-        state.loading = true;
-        var gen = generation;
+    async function loadLogosInBatches(idps, batchSize) {
+        for (var i = 0; i < idps.length; i += batchSize) {
+            await Promise.all(idps.slice(i, i + batchSize).map(fetchLogo));
+        }
+    }
 
+    async function loadAllIdps() {
         var params = new URLSearchParams({
-            keyword: state.keyword, first: state.first, max: state.max,
+            keyword: "", first: 0, max: 10000,
             client_id:    sessionParam("client_id")    || "",
             tab_id:       sessionParam("tab_id")       || "",
             session_code: sessionParam("session_code") || ""
         });
-
         try {
             var res  = await fetch(baseUri.replace(/\/$/, "") + "/realms/" + realm + "/theme-info/identity-providers?" + params);
             var data = await res.json();
-            if (gen !== generation) return;
-            state.loading = false;
+            if (!data || !Array.isArray(data.identityProviders)) return;
+            data.identityProviders.forEach(function(idp) {
+                idp.loginUrl = buildLoginUrl(idp);
+                state.idps.push(idp);
+            });
+        } catch(e) { return; }
 
-            if (!data || !Array.isArray(data.identityProviders) || data.identityProviders.length === 0) {
-                state.reachedEnd = true;
-            } else {
-                for (var i = 0; i < data.identityProviders.length; i++) {
-                    if (gen !== generation) return;
-                    var idp = data.identityProviders[i];
-                    idp.loginUrl = buildLoginUrl(idp);
-                    await fetchLogo(idp);
-                    if (gen !== generation) return;
-                    state.idps.push(idp);
-                }
-                if (data.identityProviders.length < state.max) state.reachedEnd = true;
-            }
-        } catch(e) {
-            state.loading = false;
-            state.reachedEnd = true;
-        }
-
-        renderIdps();
-        // Aktualizuj last used čerstvými daty pokud je v první stránce
-        if (state.first === 0) {
-            var stored = getLastIdp();
-            if (stored) {
-                var fresh = state.idps.find(function(i) { return i.alias === stored.alias; });
-                if (fresh) renderLastUsed(fresh);
-            }
-        }
+        renderIdps(state.idps);
+        renderLastUsed();
+        loadLogosInBatches(state.idps, 3);
     }
 
-    /* ---- render ---- */
-    function renderIdps() {
+    function renderIdps(idps) {
         if (!listEl) return;
         listEl.innerHTML = "";
-        state.idps.forEach(function(idp) { listEl.appendChild(createIdpButton(idp)); });
+        idps.forEach(function(idp) { listEl.appendChild(createIdpButton(idp)); });
     }
 
-    function renderLastUsed(idpOverride) {
+    function renderFiltered(keyword) {
+        var kw = keyword.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        var filtered = state.idps.filter(function(idp) {
+            var name = (idp.displayName || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            return name.includes(kw) || (idp.alias || "").toLowerCase().includes(kw);
+        });
+        renderIdps(filtered);
+    }
+
+    function renderLastUsed() {
         var stored = getLastIdp();
         if (!stored) return;
         var container = document.getElementById("km-last-used");
         if (!container) return;
-
-        // Použij override (čerstvá data z API) nebo uložená data
-        var idp = idpOverride || stored;
-        if (!idp.loginUrl && stored.loginUrl) idp.loginUrl = stored.loginUrl;
-        if (!idp.loginUrl) return;
-
+        var idp = Object.assign({}, stored);
+        idp.loginUrl = buildLoginUrl(idp);
         container.innerHTML = "";
         var btn = createIdpButton(idp, "km-last-used-item");
+        btn.id = "social-last-" + idp.alias;
         var badge = document.createElement("span");
         badge.className = "km-last-badge";
         badge.textContent = "Naposledy";
@@ -150,19 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
         container.appendChild(btn);
     }
 
-    /* ---- reset search ---- */
-    function resetSearch(kw) {
-        generation++;
-        state.keyword = kw;
-        state.first   = 0;
-        state.idps    = [];
-        state.reachedEnd = false;
-        state.loading    = false;
-        renderIdps();
-        loadIdps();
-    }
-
-    /* ---- toggle interní login ---- */
     if (loginToggle && loginForm) {
         loginToggle.addEventListener("click", function() {
             var open = loginForm.style.display !== "none";
@@ -171,47 +148,36 @@ document.addEventListener("DOMContentLoaded", function () {
             loginToggle.setAttribute("aria-expanded", String(!open));
         });
     }
+    if (loginForm && loginForm.dataset.hasErrors === "true") {
+        loginForm.style.display = "block";
+        if (loginToggle) { loginToggle.classList.add("km-open"); loginToggle.setAttribute("aria-expanded", "true"); }
+    }
 
-    /* ---- clear search ---- */
     if (clearBtn && searchInput) {
-        searchInput.addEventListener("input", function() {
-            clearBtn.style.display = searchInput.value ? "flex" : "none";
-        });
+        searchInput.addEventListener("input", function() { clearBtn.style.display = searchInput.value ? "flex" : "none"; });
         clearBtn.addEventListener("click", function() {
-            searchInput.value = "";
-            clearBtn.style.display = "none";
-            resetSearch("");
-            searchInput.focus();
+            searchInput.value = ""; clearBtn.style.display = "none";
+            renderIdps(state.idps); searchInput.focus();
         });
     }
 
-    /* ---- scroll lazy load ---- */
-    if (listEl) {
-        listEl.addEventListener("scroll", function() {
-            if (state.reachedEnd || state.loading) return;
-            if (listEl.scrollTop + listEl.clientHeight >= listEl.scrollHeight - 60) {
-                state.first += state.max;
-                loadIdps();
-            }
-        });
-    }
-
-    /* ---- search debounce ---- */
     var searchTimer;
     if (searchInput) {
         searchInput.addEventListener("input", function(e) {
             clearTimeout(searchTimer);
-            searchTimer = setTimeout(function() { resetSearch(e.target.value); }, 300);
+            searchTimer = setTimeout(function() {
+                var kw = e.target.value.trim();
+                if (kw) renderFiltered(kw); else renderIdps(state.idps);
+            }, 200);
         });
     }
 
-    /* ---- init ---- */
-    renderLastUsed(); // okamžitě z localStorage
-    loadIdps();
+    renderLastUsed();
+    loadAllIdps();
 });
 </script>
 
-<@layout.registrationLayout displayMessage=!messagesPerField.existsError('username','password') displayInfo=realm.password && realm.registrationAllowed && !registrationDisabled??; section>
+<@layout.registrationLayout displayMessage=true displayInfo=realm.password && realm.registrationAllowed && !registrationDisabled??; section>
 <#if section = "form">
 <div id="kc-form">
 
@@ -221,7 +187,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <span>${msg("loginInternally")}</span>
             <span class="km-arrow">&#9654;</span>
         </button>
-        <form id="kc-form-login" action="${url.loginAction}" method="post" style="display:none">
+        <form id="kc-form-login" action="${url.loginAction}" method="post"
+              style="display:none"
+              data-has-errors="<#if messagesPerField.existsError('username','password')>true<#else>false</#if>">
             <div class="km-form-body">
                 <div class="${properties.kcFormGroupClass!}">
                     <label for="username" class="${properties.kcLabelClass!}">
